@@ -1,0 +1,47 @@
+10:26:39:660,LOG welcome to a cosy midi session
+10:27:06:881,LOG welcome to a cosy midi session
+10:27:12:364,LOG ConsoleMidi.playNote()
+10:28:53:370,LOG welcome to a cosy midi session
+10:29:02:566,LOG ConsoleMidi.playNote()
+10:29:06:956,LOG MidiPlayer.playNote(int note)), 53
+11:27:58:832,LOG MidiPanel() constructor
+11:28:47:830,LOG MidiPanel() constructor
+11:29:02:300,LOG MidiPanel() constructor
+11:33:05:813,LOG MidiPanel() constructor
+11:34:05:172,LOG MidiPanel() constructor
+11:55:03:842,LOG playZara()
+11:55:04:892,LOG playZara()
+11:55:05:157,LOG playZara()
+11:55:06:501,LOG playZara()
+11:55:46:412,LOG stopZara()
+11:55:47:740,LOG playZara()
+12:16:58:781,LOG playZara()
+12:18:08:368,LOG playZara()
+12:18:49:924,LOG playZara()
+12:19:22:490,LOG stopZara()
+12:19:25:629,LOG playZara()
+12:19:27:345,LOG stopZara()
+22:03:32:162,LOG welcome to a cosy midi session
+22:03:43:866,LOG ConsoleMidi.playNote()
+22:04:44:928,LOG welcome to a cosy midi session
+22:04:51:046,LOG ConsoleMidi.playNote()
+22:06:41:906,LOG welcome to a cosy midi session
+22:06:48:047,LOG ConsoleMidi.playNote()
+22:06:50:655,LOG MidiPlayer.playNote(int note)), 65
+22:06:56:760,LOG MidiPlayer.playNote(int note)), 67
+22:06:59:805,LOG MidiPlayer.playNote(int note)), 90
+22:10:19:004,LOG welcome to a cosy midi session
+22:10:32:644,LOG ConsoleMidi.playNote()
+22:10:35:584,LOG MidiPlayer.playNote(int note)), 67
+22:10:38:379,LOG MidiPlayer.playNote(int note)), 68
+22:10:41:391,LOG MidiPlayer.playNote(int note)), 90
+22:10:43:537,LOG MidiPlayer.playNote(int note)), 33
+22:10:46:532,LOG MidiPlayer.playNote(int note)), 23
+22:10:49:384,LOG MidiPlayer.playNote(int note)), 1
+22:10:52:880,LOG MidiPlayer.playNote(int note)), 111
+22:10:55:859,LOG MidiPlayer.playNote(int note)), 0
+22:10:57:825,LOG MidiPlayer.playNote(int note)), 1
+22:10:59:457,LOG MidiPlayer.playNote(int note)), 2
+22:11:02:962,LOG MidiPlayer.playNote(int note)), 3
+22:11:04:954,LOG MidiPlayer.playNote(int note)), 4
+22:11:07:075,LOG MidiPlayer.playNote(int note)), 5
