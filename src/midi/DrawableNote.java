@@ -1,6 +1,6 @@
 package midi;
 
-import ui.DrawAble;
+import gui.DrawAble;
 
 import java.awt.*;
 

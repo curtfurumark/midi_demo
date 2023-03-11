@@ -1,6 +1,6 @@
 package midi;
 
-import lib.Debug;
+import lib.MidiLogger;
 
 import javax.sound.midi.*;
 import java.awt.event.KeyEvent;
@@ -34,7 +34,7 @@ public class Playground {
             synthesizer = MidiSystem.getSynthesizer();
             synthesizer.open();
             Instrument[] instruments = synthesizer.getLoadedInstruments();
-            Debug.log(instruments, "synth loaded instruments");
+            MidiLogger.log(instruments, "synth loaded instruments");
         } catch (MidiUnavailableException e) {
             throw new RuntimeException(e);
         }
@@ -44,7 +44,7 @@ public class Playground {
         try {
             synthesizer = MidiSystem.getSynthesizer();
             Instrument[] instruments = synthesizer.getAvailableInstruments();
-            Debug.log(instruments, "synth available instruments");
+            MidiLogger.log(instruments, "synth available instruments");
         } catch (MidiUnavailableException e) {
             throw new RuntimeException(e);
         }
@@ -52,7 +52,7 @@ public class Playground {
     public void exploreMidiSystem(){
         System.out.println("exploreMidiSystem()");
         MidiDevice.Info[] midiDeviceInfo = MidiSystem.getMidiDeviceInfo();
-        Debug.log(midiDeviceInfo, "MidiSystem.getMidiDeviceInfo()");
+        MidiLogger.log(midiDeviceInfo, "MidiSystem.getMidiDeviceInfo()");
 
     }
 
@@ -91,7 +91,7 @@ public class Playground {
             }
         }
         Soundbank defaultSoundbank = synthesizer.getDefaultSoundbank();
-        Debug.log(defaultSoundbank, "synth default soundbank");
+        MidiLogger.log(defaultSoundbank, "synth default soundbank");
     }
     private ShortMessage getMidiMessage() throws InvalidMidiDataException {
         ShortMessage mess = new ShortMessage();
@@ -206,7 +206,7 @@ public class Playground {
             mess.setMessage(ShortMessage.NOTE_ON, 0, note, 93);
             long timeStamp = -1;
             Receiver receiver = MidiSystem.getReceiver();
-            Debug.log(receiver);
+            MidiLogger.log(receiver);
             receiver.send(mess, timeStamp);
             System.out.println("message sent");
         } catch (InvalidMidiDataException | MidiUnavailableException ex) {

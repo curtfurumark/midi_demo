@@ -1,4 +1,4 @@
-package ui;
+package gui;
 
 import lib.Constants;
 import midi.*;
@@ -20,7 +20,7 @@ public class Panel extends JPanel implements ActionListener, KeyListener, MouseL
     private Button button_start;
     private Button getButton_stop;
     private Playground playground;
-    private MyReceiver myReceiver;
+    private DrawableReceiver drawableReceiver;
     private MySequencer mySequencer;
     private List<DrawAble> drawAbles = new ArrayList<>();
     private int note = 63;
@@ -58,17 +58,17 @@ public class Panel extends JPanel implements ActionListener, KeyListener, MouseL
 
     private void seqDrums(){
         drums = new Drums();
-        myReceiver = drums.getMyReceiver();
-        myReceiver.setPanel(this);
+        drawableReceiver = drums.getMyReceiver();
+        drawableReceiver.setPanel(this);
     }
     private void mySequencer(){
         System.out.println("Panel.mySequencer()");
         mySequencer = new MySequencer();
         try {
-            mySequencer.setSequence(MidiUtil.createChromaticSequence());
+            mySequencer.setSequence(SequenceFactory.createChromaticSequence());
             mySequencer.setTempoBPM(30);
-            myReceiver = mySequencer.getMyReceiver();
-            myReceiver.setPanel(this);
+            drawableReceiver = mySequencer.getMyReceiver();
+            drawableReceiver.setPanel(this);
         } catch (InvalidMidiDataException e) {
             throw new RuntimeException(e);
         } catch (MidiUnavailableException e) {
@@ -92,8 +92,8 @@ public class Panel extends JPanel implements ActionListener, KeyListener, MouseL
     }
     public void draw(Graphics graphics){
         //midiRect.draw(graphics);
-        if( myReceiver != null) {
-            myReceiver.draw(graphics);
+        if( drawableReceiver != null) {
+            drawableReceiver.draw(graphics);
         }
 
     }

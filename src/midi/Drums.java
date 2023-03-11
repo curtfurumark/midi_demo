@@ -5,7 +5,7 @@ import javax.sound.midi.*;
 public class Drums {
     private Sequencer sequencer;
     private Synthesizer synthesizer;
-    private MyReceiver myReceiver;
+    private DrawableReceiver drawableReceiver;
     public Drums(){
         System.out.println("Drums() ctor");
         try {
@@ -20,7 +20,7 @@ public class Drums {
         System.out.println("Drums.init()");
         synthesizer = MidiSystem.getSynthesizer();
         synthesizer.open();
-        myReceiver = new MyReceiver();
+        drawableReceiver = new DrawableReceiver();
         int num_notes = 10;
         boolean running = true;
         sequencer = MidiSystem.getSequencer();
@@ -42,7 +42,7 @@ public class Drums {
         //sequencer.setLoopEndPoint(8);
         //sequencer.setLoopCount(10);
         Transmitter transmitter = sequencer.getTransmitter();
-        transmitter.setReceiver(myReceiver);
+        transmitter.setReceiver(drawableReceiver);
 
     }
 
@@ -59,8 +59,8 @@ public class Drums {
 
          */
     }
-    public MyReceiver getMyReceiver(){
-        return myReceiver;
+    public DrawableReceiver getMyReceiver(){
+        return drawableReceiver;
     }
 
     public void trySynthesizer(){

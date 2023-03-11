@@ -3,11 +3,9 @@ package midi;
 import javax.sound.midi.MidiSystem;
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Synthesizer;
-import javax.sound.midi.Transmitter;
-import javax.swing.plaf.synth.SynthButtonUI;
 
 public class TestMyReceiver {
-    private MyReceiver myReceiver = new MyReceiver();
+    private DrawableReceiver drawableReceiver = new DrawableReceiver();
     public TestMyReceiver(){
         System.out.println("TestMyReceiver()");
         try {

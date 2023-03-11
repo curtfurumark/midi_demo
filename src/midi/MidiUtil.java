@@ -6,27 +6,6 @@ import javax.sound.midi.*;
 
 public class MidiUtil {
 
-    public static MidiEvent createMidiEvent(int command, int channel, int note, int velocity, int tick) throws InvalidMidiDataException {
-        System.out.format("command %d, channel %d, note %d, velocity %d tick %d\n", command, channel, note, velocity, tick);
-        ShortMessage shortMessage = new ShortMessage();
-        shortMessage.setMessage(command, channel, note, velocity);
-        return  new MidiEvent(shortMessage, tick);
-    }
-    //from c to c and octave above
-    public static Sequence createChromaticSequence() throws InvalidMidiDataException {
-        System.out.println("MidiUtil.createSequence)");
-        Sequence sequence = new Sequence(Sequence.PPQ, 4);
-        Track track = sequence.createTrack();
-        for( int i = 0, tick = 0; i < 12; i++, tick += 2){
-            track.add(createMidiEvent(ShortMessage.NOTE_ON, 1, 60 + i, 20, tick));
-            track.add(createMidiEvent(ShortMessage.NOTE_OFF, 1, 60 + i, 20, tick+2));
-        }
-        return sequence;
-    }
-    public static Sequence createMetronomeSequence(){
-        //Sequence se
-        return null;
-    }
     public static String commandToString(int command){
         switch (command) {
             case ShortMessage.NOTE_ON:
@@ -73,5 +52,9 @@ public class MidiUtil {
             default:
                 return "X";
         }
+    }
+    public static void info(){
+        MidiSystem.getMidiDeviceInfo();
+
     }
 }

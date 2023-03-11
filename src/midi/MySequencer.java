@@ -1,14 +1,16 @@
 package midi;
 
-import lib.Debug;
+import lib.MidiLogger;
 
 import javax.sound.midi.*;
 import java.io.*;
 
+import static logger.CRBLogger.log;
+
 public class MySequencer {
     private Sequencer sequencer;
     private Synthesizer synthesizer;
-    private MyReceiver myReceiver;
+    private DrawableReceiver drawableReceiver;
     private int tempoBPM = 60;
 
     public MySequencer(){
@@ -19,7 +21,7 @@ public class MySequencer {
         } catch (MidiUnavailableException e) {
             e.printStackTrace();
         }
-        myReceiver = new MyReceiver();
+        drawableReceiver = new DrawableReceiver();
     }
     public void playFile(String file_name) throws IOException, InvalidMidiDataException {
         System.out.format("MySequencer.playFile(%s)\n", file_name);
@@ -28,6 +30,19 @@ public class MySequencer {
         sequencer.setSequence(inputStream);
         //sequencer.set
         sequencer.start();
+    }
+    public void playSequence(Sequence sequence){
+        log("MySequence.playSequence(Sequence)");
+        try {
+            sequencer.setSequence(sequence);
+            //float bpm = sequencer.getTempoInBPM();
+            //log("bpm", bpm);
+            //sequencer.setL
+            sequencer.setTempoInBPM(60);
+            sequencer.start();
+        } catch (InvalidMidiDataException e) {
+            e.printStackTrace();
+        }
     }
 
     public void setSequence(Sequence sequence) throws InvalidMidiDataException, MidiUnavailableException {
@@ -38,7 +53,7 @@ public class MySequencer {
         sequencer.setLoopEndPoint(8);
         sequencer.setLoopCount(5);
         Transmitter transmitter = sequencer.getTransmitter();
-        transmitter.setReceiver(myReceiver);
+        transmitter.setReceiver(drawableReceiver);
     }
     public void setLoop(long start, long end, int loop_count){
         sequencer.setLoopStartPoint(start);
@@ -53,11 +68,11 @@ public class MySequencer {
         System.out.println("MySequencer.play()");
         if( sequencer.isRunning()){
             sequencer.stop();
-            myReceiver = new MyReceiver();
+            drawableReceiver = new DrawableReceiver();
         }
         sequencer.setTickPosition(0);
         sequencer.start();
-        Debug.log(sequencer);
+        MidiLogger.log(sequencer);
 
     }
     public void stop(){
@@ -67,8 +82,8 @@ public class MySequencer {
         }
     }
 
-    public MyReceiver getMyReceiver() {
-        return myReceiver;
+    public DrawableReceiver getMyReceiver() {
+        return drawableReceiver;
     }
 
     public boolean isPlaying() {

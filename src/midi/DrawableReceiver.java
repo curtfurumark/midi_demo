@@ -1,29 +1,31 @@
 package midi;
 
-import lib.Debug;
-import ui.DrawAble;
+import gui.DrawAble;
 
 import javax.sound.midi.MidiMessage;
 import javax.sound.midi.Receiver;
 import javax.sound.midi.ShortMessage;
-import ui.Panel;
+import gui.Panel;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyReceiver implements Receiver, DrawAble {
+import static logger.CRBLogger.log;
+
+public class DrawableReceiver implements Receiver, DrawAble {
     private int x = 50, y = 300;
     private Panel panel;
     private boolean draw = false;
+    private boolean VERBOSE = false;
     private List<DrawableNote> playedNotes = new ArrayList<>();
     private int note;
-    public MyReceiver(){
+    public DrawableReceiver(){
 
 
     }
     @Override
     public void send(MidiMessage message, long timeStamp) {
-        Debug.log("MyReceiver.send()");
+        if( VERBOSE) log("MyReceiver.send()");
         //message.
         ShortMessage sm = (ShortMessage) message;
         note = sm.getData1();
@@ -63,7 +65,7 @@ public class MyReceiver implements Receiver, DrawAble {
 
     @Override
     public synchronized void draw(Graphics graphics) {
-        System.out.println("MyReceiver.draw()");
+        if(VERBOSE)log("MyReceiver.draw()");
         for( DrawableNote note: playedNotes){
             note.draw(graphics);
         }
@@ -80,7 +82,7 @@ public class MyReceiver implements Receiver, DrawAble {
         return false;
     }
 
-    public void setPanel(ui.Panel panel){
+    public void setPanel(gui.Panel panel){
         this.panel = panel;
     }
     @Override

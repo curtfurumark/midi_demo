@@ -1,4 +1,4 @@
-package ui;
+package gui;
 
 import midi.MySequencer;
 
@@ -9,12 +9,12 @@ import java.io.IOException;
 
 import static logger.CRBLogger.log;
 
-public class MidiDemoApp extends JFrame {
+public class MidiApp extends JFrame {
     private Button button_play = new Button("play");
     private Button button_stop = new Button("stop");
     private JPanel panel_north = new JPanel();
     private MySequencer mySequencer = new MySequencer();
-    public MidiDemoApp() {
+    public MidiApp() {
         System.out.println("Frame() ctor");
 
         setTitle("midi playground");

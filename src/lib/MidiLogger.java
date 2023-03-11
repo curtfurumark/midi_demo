@@ -1,14 +1,15 @@
 package lib;
 
+import logger.CRBLogger;
 import midi.MidiUtil;
 
 import javax.sound.midi.*;
 
-public class Debug {
+public class MidiLogger extends CRBLogger {
     private static boolean debug = true;
     public static void log(Receiver receiver) {
-        System.out.println("log(Receiver)");
-        System.out.println(receiver.toString());
+        log("log(Receiver)");
+        log("reciver toString" ,receiver.toString());
     }
     public static void log(MidiDevice midiDevice){
         if(!debug){
@@ -18,6 +19,15 @@ public class Debug {
         //the device's current notion of time, counting from when it was started
         // or -1 if the device does not support timestamps
         long  time = midiDevice.getMicrosecondPosition();
+        midiDevice.getDeviceInfo().getDescription();
+    }
+    public static void log(Sequence sequence){
+        log("log Sequence...");
+        Track[] tracks = sequence.getTracks();
+        for (Track track: tracks){
+            log(track);
+        }
+        //sequence.
     }
     public static void log(Sequencer sequencer){
         if( !debug){
@@ -36,6 +46,15 @@ public class Debug {
 
         System.out.println(info.toString());
     }
+    public static void log(Track track){
+        log("log Track...");
+        log("ticks: ", track.ticks());
+        log("size: " , track.size());
+        for( int i = 0; i < track.size(); i++){
+            MidiEvent event = track.get(i);
+            log( event.getMessage());
+        }
+    }
 
 
     public static void log(Instrument instrument) {
@@ -50,6 +69,14 @@ public class Debug {
         for(int i = 0; i < instruments.length; i++){
             log(instruments[i]);
         }
+    }
+    public static void logInstruments(Instrument[] instruments){
+        log("log Instrument[]");
+        for(int i = 0; i < instruments.length; i++){
+            System.out.println(i + ": " + instruments[i]);
+        }
+
+
     }
 
     public static void log(Soundbank soundbank, String description) {
@@ -72,14 +99,20 @@ public class Debug {
         //info.
     }
     public static void log(ShortMessage sm){
-        //System.out.println("log(ShortMessage()");
+        log("log ShortMessage...");
         System.out.format("\tch %d, cmd %s (%d), data1 %d, data2 %d\n", sm.getChannel(), MidiUtil.commandToString(sm.getCommand()),
                     sm.getCommand(), sm.getData1(), sm.getData2());
+        log("status byte" , Integer.toBinaryString(sm.getStatus()));
+        log("type of message", (sm.getStatus() >> 4) & 0b00000111);
+        log("channel", sm.getStatus() & 0b00001111);
 
     }
     public static void log(MidiMessage message) {
-        System.out.println("log(MidiMessage)");
-        System.out.println(message.toString());
+        log("log MidiMessage ");
+        if( message.getStatus() == MetaMessage.META){
+            System.out.println("META MESSAGE");
+        }
+        //System.out.println(message.toString());
         ShortMessage shortMessage = new ShortMessage();
         if ( message instanceof ShortMessage){
             System.out.println("instance of ShortMessage");
