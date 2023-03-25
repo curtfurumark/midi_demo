@@ -1,5 +1,6 @@
 package gui;
 
+import classes.SequenceFactory;
 import lib.Constants;
 import midi.*;
 

@@ -1,6 +1,13 @@
 package console;
 
+import classes.Note;
+import gui.EarTrainer;
+
 import javax.sound.midi.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 import static logger.CRBLogger.log;
 import static logger.CRBLogger.logException;
@@ -27,6 +34,36 @@ public class CommandsMidi {
         for(int i = 5; i < (4 * num_notes) + 5; i += 4){
             System.out.println("i " + i);
         }
+    }
+    public static List<Integer> notes;
+    public static void initSource(){
+        notes = new ArrayList<>();
+        notes.add(Note.C);
+        notes.add(Note.F);
+        notes.add(Note.G);
+        notes.add(Note.A);
+    }
+    public static void getRandomNotes(int[] source, int number_notes){
+        log("CommandsMidi.getRandomNotes()");
+        List<Integer> melody = new ArrayList<>();
+        Random random = new Random();
+        for( int i = 0; i < number_notes; i++){
+            melody.add(source[random.nextInt(source.length)]);
+        }
+        System.out.println("printing random melody");
+        for(Integer i: melody){
+            log("note ", i);
+        }
+    }
+    public static void testRandomNotes(){
+        log("CommandsMidi.testRandomNotes()");
+        int[] source = {1, 3, 5,6};
+        getRandomNotes(source, 5);
 
+    }
+
+    public static void startEarTrainer() {
+        log("...startEarTrainer()");
+        new EarTrainer();
     }
 }

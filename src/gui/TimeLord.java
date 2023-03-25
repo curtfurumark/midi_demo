@@ -1,7 +1,7 @@
 package gui;
 
 import midi.Metronome;
-import midi.SequenceFactory;
+import classes.SequenceFactory;
 
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MidiUnavailableException;

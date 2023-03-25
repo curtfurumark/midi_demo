@@ -7,7 +7,7 @@ import javax.sound.midi.Sequence;
 import javax.sound.midi.ShortMessage;
 
 import static logger.CRBLogger.log;
-import static midi.DrumSet.BASS_DRUM_1;
+import static classes.DrumSet.BASS_DRUM_1;
 
 public class Dev {
     public static void testOne(){

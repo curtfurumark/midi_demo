@@ -1,5 +1,6 @@
 package midi;
 
+import classes.SequenceFactory;
 import lib.MidiLogger;
 
 import javax.sound.midi.*;

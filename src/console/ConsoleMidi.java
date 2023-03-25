@@ -1,5 +1,7 @@
 package console;
 
+import classes.Note;
+import classes.SequenceFactory;
 import gui.TimeLord;
 import midi.*;
 
@@ -21,8 +23,10 @@ public class ConsoleMidi {
     }
     private void printUsage(){
         System.out.println("'quit' to quit");
-        System.out.println("'metronome' to start metronome");
+        System.out.println("'change instrument' to change instrument");
         System.out.println("'drums' to drums");
+        System.out.println("'ear' to start ear training");
+        System.out.println("'metronome' to start metronome");
         System.out.println("'play note' to play a single note");
         System.out.println("'play instrument' a single c, different instruments");
         System.out.println("'meta' to play a short sequence with one meta message");
@@ -59,9 +63,6 @@ public class ConsoleMidi {
                         JOptionPane.showMessageDialog(null,"error starting timelord");
                     }
                     break;
-                case "play note":
-                    playNote();
-                    break;
                 case "print instruments":
                     printInstruments();
                     break;
@@ -79,6 +80,9 @@ public class ConsoleMidi {
         }
         System.out.println("good bye");
     }
+
+
+
     public void listMidiDevices(){
         log("ConsoleMidi.listMidiDevices()");
         MidiDevice.Info[] infos = MidiSystem.getMidiDeviceInfo();
@@ -131,22 +135,6 @@ public class ConsoleMidi {
 
     }
 
-    private void playNote() {
-        try {
-            MidiPlayer player = new MidiPlayer();
-            log("ConsoleMidi.playNote()");
-            System.out.print("note (-1 to quit): ");
-            int note;
-            while( (note = scanner.nextInt()) != -1){
-                scanner.nextLine();
-                player.playNote(note);
-                System.out.print("note: ");
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        System.out.println("bye bye");
-    }
     private void playChanel(){
         log("ConsoleMidi.playChannel()");
         do {

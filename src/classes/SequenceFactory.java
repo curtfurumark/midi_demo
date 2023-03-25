@@ -1,9 +1,11 @@
-package midi;
+package classes;
 
 import javax.sound.midi.*;
 
+import java.util.List;
+
 import static logger.CRBLogger.log;
-import static midi.DrumSet.*;
+import static classes.DrumSet.*;
 
 public class SequenceFactory {
     public Sequence getMetronomeSeq() {
@@ -27,6 +29,16 @@ public class SequenceFactory {
             default:
                 return null;
         }
+    }
+    public static Sequence getSequence(List<Integer> notes) throws InvalidMidiDataException {
+        log("getSequence(List<Integer>)");
+        Sequence sequence = new Sequence(Sequence.PPQ, 4);
+        Track track = sequence.createTrack();
+        for( int i = 0, tick = 0; i < notes.size(); i++, tick += 2){
+            track.add(createMidiEvent(ShortMessage.NOTE_ON, 1, notes.get(i), 100, tick));
+            track.add(createMidiEvent(ShortMessage.NOTE_OFF, 1, notes.get(i), 100, tick + 1));
+        }
+        return sequence;
     }
 
     public static Sequence getDrumSeq(int num_notes) throws InvalidMidiDataException {

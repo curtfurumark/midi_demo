@@ -1,5 +1,7 @@
 package midi;
 
+import classes.SequenceFactory;
+
 import javax.sound.midi.*;
 
 public class Drums {
