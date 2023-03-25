@@ -1,2 +1,4 @@
-package classes;public class MelodyFactory {
+package classes;
+
+public class MelodyFactory {
 }

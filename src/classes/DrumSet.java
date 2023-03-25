@@ -1,4 +1,4 @@
-package midi;
+package classes;
 
 public class DrumSet {
     public static final int ACOUSTIC_BASS_DRUM =35;

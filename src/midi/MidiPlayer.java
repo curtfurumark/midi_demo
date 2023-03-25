@@ -7,14 +7,15 @@ import static logger.CRBLogger.logException;
 
 public class MidiPlayer {
     private Receiver receiver;
+    private Synthesizer synthesizer;
     private static final int TIMESTAMP = -1;
     public static boolean VERBOSE = false;
 
     public MidiPlayer() {
         try {
             receiver = MidiSystem.getReceiver();
-            Synthesizer synthesizer = MidiSystem.getSynthesizer();
-            //synthesizer.getAvailableInstruments()
+            synthesizer = MidiSystem.getSynthesizer();
+            synthesizer.open();
         } catch (MidiUnavailableException e) {
             e.printStackTrace();
         }
@@ -31,8 +32,20 @@ public class MidiPlayer {
             //if( VERBOSE) log("message sent");
         } catch (InvalidMidiDataException ex) {
             logException(ex);
-            //Logger.getLogger(CFEarTrainer.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+    public void noteOff(int note){
+        if(VERBOSE) log("MidiPlayer.noteOff()");
+        try {
+            if (VERBOSE) log("MidiPlayer.playNote: ", note);
+            ShortMessage mess = new ShortMessage();
+            mess.setMessage(ShortMessage.NOTE_OFF, 0, note, 93);
+            long timeStamp = -1;
+            receiver.send(mess, TIMESTAMP);
+        } catch (InvalidMidiDataException ex) {
+            logException(ex);
+        }
+
     }
 
     public void playNote(int note, int instrument) {
@@ -58,6 +71,15 @@ public class MidiPlayer {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
 
+    public Instrument[] getLoadedInstruments() throws MidiUnavailableException {
+        log("MidiPlayer.getLoadedInstruments");
+        return synthesizer.getLoadedInstruments();
+    }
+
+    public void send(ShortMessage message) {
+        log("MidiPlayer.send(ShortMessage)");
+        receiver.send(message, -1);
     }
 }
