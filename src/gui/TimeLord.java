@@ -16,6 +16,7 @@ import static logger.CRBLogger.log;
 public class TimeLord extends JFrame implements Metronome.Callback{
     private JButton button = new JButton("start");
     private JComboBox comboBox_sequences;
+    private JSlider sliderTempo;
     private static int DEFAULT_TEMPO = 60;
     private int tempo = DEFAULT_TEMPO;
     private Metronome metronome;

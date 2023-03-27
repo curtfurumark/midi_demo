@@ -1,9 +1,7 @@
-import console.CommandsMidi;
-import console.ConsoleMidi;
-import console.NotePlayer;
+import ear_master.ConsoleEarMaster;
+import ear_master.EarTrainer;
 import gui.MidiFilePlayer;
 import gui.TimeLord;
-import gui.*;
 import logger.CRBLogger;
 
 import javax.sound.midi.InvalidMidiDataException;
@@ -24,7 +22,10 @@ public class Main {
         //new ConsoleMidi().startSession();
         //startTimeLord();
         //new MySynth();
-        new Keyboard();
+        new EarTrainer();
+
+        //new ConsoleEarMaster().generateMelody();
+        //new Keyboard();
         //new NotePlayer().startSession();
 
         //CommandsMidi.testRandomNotes();

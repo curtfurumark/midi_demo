@@ -24,6 +24,17 @@ public class MySequencer {
         return sequencer.getTempoInBPM();
     }
 
+    public void noteOff(int note) {
+        log("MySequencer.noteOff(int) ", note);
+        ShortMessage message = new ShortMessage();
+        try {
+            message.setMessage(ShortMessage.NOTE_OFF, 3, note, 0);
+            receiver.send(message, -1);
+        } catch (InvalidMidiDataException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
     private enum State{
         PENDING, PLAYING, PAUSED, STOPPED, FINISHED
@@ -62,9 +73,6 @@ public class MySequencer {
     public void playNote(int note){
         if(VERBOSE) log("MySequencer.playNote()", note);
         try {
-            ShortMessage mess1 = new ShortMessage();
-/*            mess1.setMessage(ShortMessage.PROGRAM_CHANGE, 3, 123);
-            receiver.send(mess1, -1);*/
             ShortMessage mess = new ShortMessage();
             mess.setMessage(ShortMessage.NOTE_ON, 3, note, 93);
             receiver.send(mess, 0);
@@ -78,7 +86,7 @@ public class MySequencer {
         try {
             sequencer.setSequence(sequence);
             sequencer.setTickPosition(0);
-            sequencer.setTempoInBPM(60);
+            sequencer.setTempoInBPM(tempoBPM);
             sequencer.start();
             //sequencer.s
         } catch (InvalidMidiDataException e) {

@@ -87085,3 +87085,2069 @@
 21:10:18:463,LOG class , com.sun.media.sound.FastShortMessage
 21:10:18:463,LOG Metronome.send(MidiMessage message, long timeStamp : -1
 21:10:18:464,LOG class , com.sun.media.sound.FastShortMessage
+11:46:26:176,LOG TimeLord constructor()
+11:46:31:286,LOG SequenceFactory.longMetronome()
+11:46:31:605,LOG TimeLord.setTempo()
+11:46:33:568,LOG setPanelWest()
+11:46:33:569,LOG setPanelCenter()
+11:46:33:570,LOG setPanelSouth()
+11:48:42:291,LOG startMidiFilePlayer()
+11:50:00:065,LOG startMidiFilePlayer()
+11:50:30:313,LOG startMidiFilePlayer()
+11:51:03:674,LOG file, D:\rotfyllning\burnout.txt
+12:13:26:839,LOG startMidiFilePlayer()
+12:13:30:801,LOG setPanelSouth()
+12:13:40:992,LOG MidiFilePlayer.playCurrentFile()
+12:14:21:032,LOG startMidiFilePlayer()
+12:14:21:698,LOG setPanelSouth()
+12:14:24:053,LOG MidiFilePlayer.playCurrentFile()
+12:14:29:948,LOG stopZara()
+12:14:35:214,LOG MidiFilePlayer.playCurrentFile()
+12:14:59:225,LOG stopZara()
+12:15:20:916,LOG MidiFilePlayer.playCurrentFile()
+12:15:33:406,LOG stopZara()
+12:16:25:618,LOG startMidiFilePlayer()
+12:16:26:339,LOG setPanelSouth()
+12:16:58:121,LOG file, D:\rotfyllning\theory of mind.txt
+12:42:16:244,LOG startMidiFilePlayer()
+12:42:20:679,LOG setPanelSouth()
+12:51:12:188,LOG startMidiFilePlayer()
+12:51:18:177,LOG setPanelSouth()
+12:51:32:381,LOG file, d:\music\midi\Fly-Me-To-The-Moon.mid
+12:51:35:302,LOG MidiFilePlayer.playCurrentFile()
+12:52:06:794,LOG stopZara()
+12:52:09:892,LOG MidiFilePlayer.playCurrentFile()
+12:52:15:051,LOG stopZara()
+13:12:14:400,LOG startMidiFilePlayer()
+13:12:21:079,LOG setPanelSouth()
+13:12:36:145,LOG file, d:\music\midi\Simpsons.mid
+13:12:38:351,LOG MidiFilePlayer.playCurrentFile()
+13:12:38:351,LOG MySequencer.playFile(%s), d:\music\midi\Simpsons.mid
+13:12:58:073,LOG stopZara()
+13:13:01:809,LOG MidiFilePlayer.playCurrentFile()
+13:13:01:810,LOG MySequencer.playFile(%s), d:\music\midi\Simpsons.mid
+13:13:07:431,LOG stopZara()
+14:17:01:106,LOG startMidiFilePlayer()
+14:17:07:433,LOG MidiFilePlayer.setPanelNorth()
+14:17:07:435,LOG setPanelSouth()
+14:18:52:925,LOG startMidiFilePlayer()
+14:18:53:615,LOG MidiFilePlayer.setPanelNorth()
+14:18:53:618,LOG setPanelSouth()
+14:19:06:735,LOG file, d:\music\midi\Naruto - Naruto Main Theme-Short Version.mid
+14:19:08:511,LOG MidiFilePlayer.playCurrentFile()
+14:19:08:511,LOG MySequencer.playFile(%s), d:\music\midi\Naruto - Naruto Main Theme-Short Version.mid
+14:19:18:215,LOG MidiFilePlayer.pause()
+14:19:18:215,LOG MySequencer.pause()
+14:19:18:220,LOG current_tick: 7352
+14:19:24:224,LOG MidiFilePlayer.resume()
+15:29:45:492,LOG startMidiFilePlayer()
+15:29:46:152,LOG MidiFilePlayer.setPanelNorth()
+15:29:46:156,LOG setPanelSouth()
+15:30:14:336,LOG file, d:\music\midi\Naruto Shippuden - Naruto Shpippuuden Opening 9.mid
+15:30:17:233,LOG MidiFilePlayer.playCurrentFile()
+15:30:17:233,LOG MySequencer.playFile(%s), d:\music\midi\Naruto Shippuden - Naruto Shpippuuden Opening 9.mid
+15:31:21:784,LOG stopZara()
+15:31:21:785,LOG MySequencer.stop()
+15:31:21:789,LOG current_tick: 44015
+15:32:31:984,LOG file, d:\music\midi\Fly-Me-To-The-Moon.mid
+15:32:33:963,LOG MidiFilePlayer.playCurrentFile()
+15:32:33:964,LOG MySequencer.playFile(%s), d:\music\midi\Fly-Me-To-The-Moon.mid
+15:34:05:958,LOG stopZara()
+15:34:05:959,LOG MySequencer.stop()
+15:34:05:962,LOG current_tick: 68897
+15:34:17:214,LOG file, d:\music\midi\Attack on Titan - Jiyuu no Tsubasa.mid
+15:34:20:048,LOG MidiFilePlayer.playCurrentFile()
+15:34:20:048,LOG MySequencer.playFile(%s), d:\music\midi\Attack on Titan - Jiyuu no Tsubasa.mid
+16:43:34:881,LOG startMidiFilePlayer()
+16:43:42:439,LOG MidiFilePlayer.setPanelNorth()
+16:43:42:441,LOG setPanelSouth()
+16:51:48:141,LOG startMidiFilePlayer()
+16:51:48:992,LOG MidiFilePlayer.setPanelNorth()
+16:51:48:996,LOG setPanelSouth()
+16:52:00:616,LOG file, d:\music\midi\Queen - Bohemian Rhapsody.mid
+16:52:05:106,LOG MidiFilePlayer.playCurrentFile()
+16:52:05:106,LOG MySequencer.playFile(%s), d:\music\midi\Queen - Bohemian Rhapsody.mid
+16:52:05:217,LOG getNumberTracks()
+16:52:33:033,LOG startMidiFilePlayer()
+16:52:33:721,LOG MidiFilePlayer.setPanelNorth()
+16:52:33:723,LOG setPanelSouth()
+16:52:42:324,LOG file, d:\music\midi\Michael Jackson - Billie Jean.mid
+16:52:44:710,LOG MidiFilePlayer.playCurrentFile()
+16:52:44:711,LOG MySequencer.playFile(%s), d:\music\midi\Michael Jackson - Billie Jean.mid
+16:52:44:818,LOG getNumberTracks()
+16:52:53:495,LOG stopZara()
+16:52:53:496,LOG MySequencer.stop()
+16:52:53:503,LOG current_tick: 3332
+16:53:02:648,LOG MidiFilePlayer.resume()
+16:53:02:649,LOG MySequencer.resume() current tick: : 3332
+16:53:16:226,LOG MidiFilePlayer.pause()
+16:53:16:226,LOG MySequencer.pause()
+16:53:16:229,LOG current_tick: 8545
+16:53:18:475,LOG MidiFilePlayer.resume()
+16:53:18:475,LOG MySequencer.resume() current tick: : 8545
+16:53:21:993,LOG MidiFilePlayer.pause()
+16:53:21:994,LOG MySequencer.pause()
+16:53:22:040,LOG current_tick: 9912
+16:54:26:306,LOG startMidiFilePlayer()
+16:54:26:982,LOG MidiFilePlayer.setPanelNorth()
+16:54:26:982,LOG setPanelSouth()
+16:54:30:711,LOG MidiFilePlayer.playCurrentFile()
+16:54:30:712,LOG MySequencer.playFile(%s), res/zarathustra.mid
+16:54:30:842,LOG getNumberTracks()
+16:54:42:126,LOG MidiFilePlayer.pause()
+16:54:42:127,LOG MySequencer.pause()
+16:54:42:131,LOG current_tick: 4266
+16:54:46:816,LOG MidiFilePlayer.resume()
+16:54:46:817,LOG MySequencer.resume() current tick: : 4266
+16:54:49:376,LOG MidiFilePlayer.pause()
+16:54:49:377,LOG MySequencer.pause()
+16:54:49:381,LOG current_tick: 5362
+17:07:22:935,LOG startMidiFilePlayer()
+17:07:23:613,LOG MidiFilePlayer.setPanelNorth()
+17:07:23:616,LOG setPanelSouth()
+17:07:56:615,LOG startMidiFilePlayer()
+17:07:57:277,LOG MidiFilePlayer.setPanelNorth()
+17:07:57:280,LOG setPanelSouth()
+17:08:26:645,LOG startMidiFilePlayer()
+17:08:27:307,LOG MidiFilePlayer.setPanelNorth()
+17:08:27:312,LOG setPanelSouth()
+17:08:42:263,LOG file, d:\music\midi\Fly-Me-To-The-Moon.mid
+17:08:48:057,LOG MidiFilePlayer.playCurrentFile()
+17:08:48:058,LOG MySequencer.playFile(%s), d:\music\midi\Fly-Me-To-The-Moon.mid
+17:08:48:112,LOG getNumberTracks()
+17:08:56:713,LOG MidiFilePlayer.pause()
+17:08:56:713,LOG MySequencer.pause()
+17:08:56:716,LOG current_tick: 7030
+17:10:29:677,LOG startMidiFilePlayer()
+17:10:30:289,LOG MidiFilePlayer.setPanelNorth()
+17:10:30:293,LOG setPanelSouth()
+17:10:33:403,LOG MidiFilePlayer.playCurrentFile()
+17:10:33:403,LOG MySequencer.playFile(%s), res/zarathustra.mid
+17:10:33:411,LOG getNumberTracks()
+17:10:39:394,LOG stopZara()
+17:10:39:395,LOG MySequencer.stop()
+17:10:39:399,LOG current_tick: 2259
+17:10:41:571,LOG MidiFilePlayer.playCurrentFile()
+17:10:41:571,LOG MySequencer.playFile(%s), res/zarathustra.mid
+17:10:41:575,LOG getNumberTracks()
+17:10:44:075,LOG MidiFilePlayer.playCurrentFile()
+17:10:44:076,LOG MySequencer.playFile(%s), res/zarathustra.mid
+17:10:44:083,LOG getNumberTracks()
+17:10:46:099,LOG stopZara()
+17:10:46:100,LOG MySequencer.stop()
+17:10:46:103,LOG current_tick: 761
+20:35:58:046,LOG CommandsMidi.testRandomNotes()
+20:35:58:221,LOG CommandsMidi.getRandomNotes()
+20:35:58:222,LOG next int , -1157023572
+20:35:58:223,LOG next int , -396984392
+20:35:58:224,LOG next int , -349120689
+20:35:58:224,LOG next int , -812936179
+20:35:58:225,LOG next int , -349579761
+20:36:55:587,LOG CommandsMidi.testRandomNotes()
+20:36:55:609,LOG CommandsMidi.getRandomNotes()
+20:36:55:610,LOG next int , 0
+20:36:55:611,LOG next int , 2
+20:36:55:611,LOG next int , 2
+20:36:55:612,LOG next int , 3
+20:36:55:612,LOG next int , 0
+20:37:32:085,LOG CommandsMidi.testRandomNotes()
+20:37:32:112,LOG CommandsMidi.getRandomNotes()
+20:37:32:113,LOG next int , 2
+20:37:32:114,LOG next int , 2
+20:37:32:114,LOG next int , 0
+20:37:32:115,LOG next int , 0
+20:37:32:116,LOG next int , 3
+20:39:48:555,LOG CommandsMidi.testRandomNotes()
+20:39:48:579,LOG CommandsMidi.getRandomNotes()
+20:39:48:580,LOG note , 1
+20:39:48:581,LOG note , 1
+20:39:48:582,LOG note , 5
+20:39:48:583,LOG note , 6
+20:39:48:584,LOG note , 5
+21:45:03:308,LOG CommandsMidi.testRandomNotes()
+21:45:03:340,LOG CommandsMidi.getRandomNotes()
+21:45:03:342,LOG note , 6
+21:45:03:343,LOG note , 3
+21:45:03:344,LOG note , 5
+21:45:03:344,LOG note , 6
+21:45:03:345,LOG note , 6
+21:45:03:346,LOG ...startEarTrainer()
+21:45:05:527,LOG ...EarTrainer()
+21:45:05:528,LOG ...initPanelNorth()
+21:45:53:297,LOG CommandsMidi.testRandomNotes()
+21:45:53:324,LOG CommandsMidi.getRandomNotes()
+21:45:53:325,LOG note , 5
+21:45:53:326,LOG note , 1
+21:45:53:327,LOG note , 3
+21:45:53:328,LOG note , 6
+21:45:53:328,LOG note , 3
+21:45:53:329,LOG ...startEarTrainer()
+21:45:53:518,LOG ...EarTrainer()
+21:45:53:519,LOG ...initPanelNorth()
+21:46:50:812,LOG CommandsMidi.testRandomNotes()
+21:46:50:837,LOG CommandsMidi.getRandomNotes()
+21:46:50:839,LOG note , 5
+21:46:50:840,LOG note , 5
+21:46:50:841,LOG note , 3
+21:46:50:841,LOG note , 1
+21:46:50:842,LOG note , 3
+21:46:50:843,LOG ...startEarTrainer()
+21:46:51:037,LOG ...EarTrainer()
+21:46:51:037,LOG ...initPanelNorth()
+21:47:37:585,LOG CommandsMidi.testRandomNotes()
+21:47:37:616,LOG CommandsMidi.getRandomNotes()
+21:47:37:617,LOG note , 6
+21:47:37:618,LOG note , 5
+21:47:37:619,LOG note , 1
+21:47:37:620,LOG note , 3
+21:47:37:621,LOG note , 3
+21:47:37:622,LOG ...startEarTrainer()
+21:47:37:808,LOG ...EarTrainer()
+21:47:37:809,LOG ...initPanelNorth()
+21:47:41:349,LOG ...playMelody()
+21:52:07:523,LOG CommandsMidi.testRandomNotes()
+21:52:07:549,LOG CommandsMidi.getRandomNotes()
+21:52:07:550,LOG note , 6
+21:52:07:551,LOG note , 6
+21:52:07:552,LOG note , 5
+21:52:07:552,LOG note , 5
+21:52:07:553,LOG note , 1
+21:52:07:554,LOG ...startEarTrainer()
+21:52:07:745,LOG ...EarTrainer()
+21:52:07:746,LOG ...initPanelNorth()
+21:52:10:800,LOG ...playMelody()
+21:52:15:536,LOG ...playMelody()
+21:52:17:472,LOG ...playMelody()
+21:52:19:088,LOG ...playMelody()
+21:52:20:744,LOG ...playMelody()
+22:02:50:188,LOG CommandsMidi.testRandomNotes()
+22:02:50:212,LOG CommandsMidi.getRandomNotes()
+22:02:50:214,LOG note , 6
+22:02:50:215,LOG note , 6
+22:02:50:215,LOG note , 1
+22:02:50:216,LOG note , 1
+22:02:50:217,LOG note , 3
+22:02:50:218,LOG ...startEarTrainer()
+22:02:51:832,LOG ...EarTrainer()
+22:02:51:833,LOG ...initPanelNorth()
+22:02:54:438,LOG ...playMelody()
+22:02:54:447,LOG getSequence(List<Integer>)
+22:02:54:503,LOG MySequence.playSequence(Sequence)
+22:03:00:710,LOG ...playMelody()
+22:03:00:712,LOG getSequence(List<Integer>)
+22:03:00:715,LOG MySequence.playSequence(Sequence)
+22:03:03:782,LOG ...playMelody()
+22:03:03:784,LOG getSequence(List<Integer>)
+22:03:03:786,LOG MySequence.playSequence(Sequence)
+22:03:06:885,LOG ...playMelody()
+22:03:06:886,LOG getSequence(List<Integer>)
+22:03:06:889,LOG MySequence.playSequence(Sequence)
+16:47:09:111,LOG CommandsMidi.testRandomNotes()
+16:47:09:220,LOG CommandsMidi.getRandomNotes()
+16:47:09:220,LOG note , 3
+16:47:09:220,LOG note , 5
+16:47:09:220,LOG note , 1
+16:47:09:220,LOG note , 5
+16:47:09:220,LOG note , 3
+16:47:09:236,LOG ...startEarTrainer()
+16:47:12:399,LOG ...EarTrainer()
+16:47:12:399,LOG ...initPanelNorth()
+16:47:18:525,LOG ...playMelody()
+16:47:18:724,LOG getSequence(List<Integer>)
+16:47:18:741,LOG MySequence.playSequence(Sequence)
+16:54:01:038,LOG CommandsMidi.testRandomNotes()
+16:54:01:069,LOG CommandsMidi.getRandomNotes()
+16:54:01:069,LOG note , 6
+16:54:01:069,LOG note , 5
+16:54:01:069,LOG note , 1
+16:54:01:069,LOG note , 3
+16:54:01:069,LOG note , 1
+16:54:01:069,LOG ...startEarTrainer()
+16:54:01:802,LOG ...EarTrainer()
+16:54:01:803,LOG ...initPanelNorth()
+16:54:28:125,LOG CommandsMidi.testRandomNotes()
+16:54:28:156,LOG CommandsMidi.getRandomNotes()
+16:54:28:156,LOG note , 5
+16:54:28:156,LOG note , 3
+16:54:28:156,LOG note , 6
+16:54:28:156,LOG note , 1
+16:54:28:156,LOG note , 6
+16:54:28:156,LOG ...startEarTrainer()
+16:54:28:826,LOG ...EarTrainer()
+16:54:28:827,LOG ...initPanelNorth()
+16:54:28:928,LOG EarTrainer.initPanelSouth()
+16:55:20:644,LOG CommandsMidi.testRandomNotes()
+16:55:20:676,LOG CommandsMidi.getRandomNotes()
+16:55:20:676,LOG note , 5
+16:55:20:676,LOG note , 1
+16:55:20:676,LOG note , 6
+16:55:20:676,LOG note , 6
+16:55:20:676,LOG note , 5
+16:55:20:676,LOG ...startEarTrainer()
+16:55:21:359,LOG ...EarTrainer()
+16:55:21:360,LOG ...initPanelNorth()
+16:55:21:455,LOG EarTrainer.initPanelSouth()
+16:55:54:769,LOG CommandsMidi.testRandomNotes()
+16:55:54:801,LOG CommandsMidi.getRandomNotes()
+16:55:54:801,LOG note , 1
+16:55:54:801,LOG note , 3
+16:55:54:801,LOG note , 3
+16:55:54:801,LOG note , 3
+16:55:54:801,LOG note , 1
+16:55:54:801,LOG ...startEarTrainer()
+16:55:55:447,LOG ...EarTrainer()
+16:55:55:448,LOG ...initPanelNorth()
+16:55:55:531,LOG EarTrainer.initPanelSouth()
+16:56:12:011,LOG CommandsMidi.testRandomNotes()
+16:56:12:026,LOG CommandsMidi.getRandomNotes()
+16:56:12:026,LOG note , 1
+16:56:12:042,LOG note , 5
+16:56:12:042,LOG note , 1
+16:56:12:042,LOG note , 6
+16:56:12:042,LOG note , 3
+16:56:12:042,LOG ...startEarTrainer()
+16:56:12:713,LOG ...EarTrainer()
+16:56:12:715,LOG ...initPanelNorth()
+16:56:12:814,LOG EarTrainer.initPanelSouth()
+17:03:11:809,LOG CommandsMidi.testRandomNotes()
+17:03:11:825,LOG CommandsMidi.getRandomNotes()
+17:03:11:825,LOG note , 3
+17:03:11:825,LOG note , 3
+17:03:11:825,LOG note , 5
+17:03:11:825,LOG note , 3
+17:03:11:825,LOG note , 6
+17:03:11:825,LOG ...startEarTrainer()
+17:03:12:573,LOG ...EarTrainer()
+17:03:12:574,LOG ...initPanelNorth()
+17:03:12:682,LOG EarTrainer.initPanelSouth()
+17:03:17:333,LOG EarTrainer.actionPerformed(ActionEvent)
+17:03:24:421,LOG EarTrainer.actionPerformed(ActionEvent)
+17:03:32:412,LOG EarTrainer.actionPerformed(ActionEvent)
+17:03:33:265,LOG EarTrainer.actionPerformed(ActionEvent)
+17:03:33:477,LOG EarTrainer.actionPerformed(ActionEvent)
+17:03:33:701,LOG EarTrainer.actionPerformed(ActionEvent)
+17:03:33:957,LOG EarTrainer.actionPerformed(ActionEvent)
+17:04:23:214,LOG CommandsMidi.testRandomNotes()
+17:04:23:245,LOG CommandsMidi.getRandomNotes()
+17:04:23:245,LOG note , 5
+17:04:23:245,LOG note , 3
+17:04:23:245,LOG note , 3
+17:04:23:245,LOG note , 6
+17:04:23:245,LOG note , 1
+17:04:23:245,LOG ...startEarTrainer()
+17:04:23:920,LOG ...EarTrainer()
+17:04:23:921,LOG ...initPanelNorth()
+17:04:24:015,LOG EarTrainer.initPanelSouth()
+17:04:28:296,LOG EarTrainer.actionPerformed(ActionEvent)
+17:04:34:452,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:37:664,LOG CommandsMidi.testRandomNotes()
+17:05:37:680,LOG CommandsMidi.getRandomNotes()
+17:05:37:680,LOG note , 5
+17:05:37:680,LOG note , 6
+17:05:37:680,LOG note , 5
+17:05:37:680,LOG note , 6
+17:05:37:680,LOG note , 1
+17:05:37:680,LOG ...startEarTrainer()
+17:05:38:349,LOG ...EarTrainer()
+17:05:38:351,LOG ...initPanelNorth()
+17:05:38:485,LOG EarTrainer.initPanelSouth()
+17:05:39:996,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:40:516,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:41:920,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:43:209,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:45:504,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:48:053,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:49:513,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:51:084,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:53:688,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:56:585,LOG EarTrainer.actionPerformed(ActionEvent)
+17:05:58:056,LOG EarTrainer.actionPerformed(ActionEvent)
+17:06:01:704,LOG EarTrainer.actionPerformed(ActionEvent)
+17:06:02:800,LOG EarTrainer.actionPerformed(ActionEvent)
+17:06:03:040,LOG EarTrainer.actionPerformed(ActionEvent)
+17:06:03:281,LOG EarTrainer.actionPerformed(ActionEvent)
+17:06:03:504,LOG EarTrainer.actionPerformed(ActionEvent)
+17:06:03:720,LOG EarTrainer.actionPerformed(ActionEvent)
+17:07:29:622,LOG CommandsMidi.testRandomNotes()
+17:07:29:653,LOG CommandsMidi.getRandomNotes()
+17:07:29:653,LOG note , 5
+17:07:29:653,LOG note , 3
+17:07:29:653,LOG note , 3
+17:07:29:653,LOG note , 6
+17:07:29:653,LOG note , 1
+17:07:29:653,LOG ...startEarTrainer()
+17:07:30:314,LOG ...EarTrainer()
+17:07:30:315,LOG ...initPanelNorth()
+17:07:30:402,LOG EarTrainer.initPanelSouth()
+17:07:32:532,LOG ...playMelody()
+17:07:32:541,LOG getSequence(List<Integer>)
+17:07:32:545,LOG MySequence.playSequence(Sequence)
+17:07:36:928,LOG ...playMelody()
+17:07:36:929,LOG getSequence(List<Integer>)
+17:07:36:932,LOG MySequence.playSequence(Sequence)
+17:07:46:472,LOG ...playMelody()
+17:07:46:473,LOG getSequence(List<Integer>)
+17:07:46:476,LOG MySequence.playSequence(Sequence)
+17:08:01:384,LOG EarTrainer.actionPerformed(ActionEvent)
+17:08:01:856,LOG EarTrainer.actionPerformed(ActionEvent)
+17:08:02:391,LOG EarTrainer.actionPerformed(ActionEvent)
+17:08:02:911,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:23:033,LOG CommandsMidi.testRandomNotes()
+18:10:23:065,LOG CommandsMidi.getRandomNotes()
+18:10:23:065,LOG note , 3
+18:10:23:065,LOG note , 1
+18:10:23:065,LOG note , 3
+18:10:23:065,LOG note , 6
+18:10:23:065,LOG note , 6
+18:10:23:065,LOG ...startEarTrainer()
+18:10:23:828,LOG ...EarTrainer()
+18:10:23:829,LOG ...initPanelNorth()
+18:10:23:947,LOG EarTrainer.initPanelSouth()
+18:10:26:257,LOG ...playMelody()
+18:10:26:266,LOG getSequence(List<Integer>)
+18:10:26:270,LOG MySequence.playSequence(Sequence)
+18:10:29:705,LOG EarTrainer.repeatMelody()
+18:10:29:705,LOG MySequence.playSequence(Sequence)
+18:10:32:344,LOG EarTrainer.repeatMelody()
+18:10:32:345,LOG MySequence.playSequence(Sequence)
+18:10:37:640,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:38:089,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:38:585,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:39:120,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:41:128,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:41:593,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:42:080,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:43:316,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:51:453,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:51:888,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:52:352,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:52:860,LOG EarTrainer.actionPerformed(ActionEvent)
+18:10:54:656,LOG EarTrainer.actionPerformed(ActionEvent)
+18:11:03:184,LOG EarTrainer.repeatMelody()
+18:11:03:185,LOG MySequence.playSequence(Sequence)
+18:12:54:070,LOG CommandsMidi.testRandomNotes()
+18:12:54:086,LOG CommandsMidi.getRandomNotes()
+18:12:54:086,LOG note , 3
+18:12:54:086,LOG note , 3
+18:12:54:086,LOG note , 3
+18:12:54:086,LOG note , 5
+18:12:54:086,LOG note , 1
+18:12:54:101,LOG ...startEarTrainer()
+18:12:54:753,LOG ...EarTrainer()
+18:12:54:755,LOG ...initPanelNorth()
+18:12:54:855,LOG EarTrainer.initPanelSouth()
+18:12:56:947,LOG ...playMelody()
+18:12:56:957,LOG getSequence(List<Integer>)
+18:12:56:960,LOG MySequence.playSequence(Sequence)
+18:13:00:180,LOG EarTrainer.repeatMelody()
+18:13:00:180,LOG MySequence.playSequence(Sequence)
+18:13:02:940,LOG EarTrainer.repeatMelody()
+18:13:02:941,LOG MySequence.playSequence(Sequence)
+18:14:57:146,LOG CommandsMidi.testRandomNotes()
+18:14:57:178,LOG CommandsMidi.getRandomNotes()
+18:14:57:178,LOG note , 3
+18:14:57:178,LOG note , 6
+18:14:57:178,LOG note , 6
+18:14:57:178,LOG note , 5
+18:14:57:178,LOG note , 6
+18:14:57:178,LOG ...startEarTrainer()
+18:14:57:945,LOG ...EarTrainer()
+18:14:57:947,LOG ...initPanelNorth()
+18:14:58:052,LOG EarTrainer.initPanelSouth()
+18:15:03:035,LOG ...playMelody()
+18:15:03:044,LOG getSequence(List<Integer>)
+18:15:03:048,LOG MySequence.playSequence(Sequence)
+18:17:20:410,LOG CommandsMidi.testRandomNotes()
+18:17:20:441,LOG CommandsMidi.getRandomNotes()
+18:17:20:441,LOG note , 3
+18:17:20:441,LOG note , 1
+18:17:20:441,LOG note , 3
+18:17:20:441,LOG note , 1
+18:17:20:441,LOG note , 3
+18:17:20:441,LOG ...startEarTrainer()
+18:17:21:263,LOG ...EarTrainer()
+18:17:21:267,LOG ...initPanelNorth()
+18:17:21:406,LOG EarTrainer.initPanelSouth()
+18:23:10:896,LOG CommandsMidi.testRandomNotes()
+18:23:10:912,LOG CommandsMidi.getRandomNotes()
+18:23:10:912,LOG note , 5
+18:23:10:912,LOG note , 5
+18:23:10:912,LOG note , 3
+18:23:10:912,LOG note , 3
+18:23:10:912,LOG note , 5
+18:23:10:912,LOG ...startEarTrainer()
+18:23:11:586,LOG ...EarTrainer()
+18:23:11:587,LOG ...initPanelNorth()
+18:23:11:686,LOG EarTrainer.initPanelSouth()
+18:23:14:378,LOG ...playMelody()
+18:23:14:392,LOG getSequence(List<Integer>)
+18:23:14:396,LOG MySequence.playSequence(Sequence)
+18:23:20:569,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:21:201,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:21:641,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:22:409,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:31:353,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:31:633,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:32:985,LOG EarTrainer.actionPerformed(ActionEvent)
+18:23:33:553,LOG EarTrainer.actionPerformed(ActionEvent)
+18:48:39:520,LOG CommandsMidi.testRandomNotes()
+18:48:39:536,LOG CommandsMidi.getRandomNotes()
+18:48:39:536,LOG note , 3
+18:48:39:536,LOG note , 5
+18:48:39:536,LOG note , 6
+18:48:39:536,LOG note , 5
+18:48:39:536,LOG note , 1
+18:48:39:536,LOG ...startEarTrainer()
+18:48:40:297,LOG ...EarTrainer()
+18:48:40:299,LOG ...initPanelNorth()
+18:48:40:383,LOG EarTrainer.initPanelSouth()
+18:48:42:518,LOG EarTrainer.actionPerformed(ActionEvent)
+18:48:42:519,LOG MySequencer.playNote()
+18:48:45:098,LOG EarTrainer.actionPerformed(ActionEvent)
+18:48:45:099,LOG MySequencer.playNote()
+18:48:46:334,LOG EarTrainer.actionPerformed(ActionEvent)
+18:48:47:118,LOG EarTrainer.actionPerformed(ActionEvent)
+18:48:47:118,LOG MySequencer.playNote()
+18:49:53:470,LOG CommandsMidi.testRandomNotes()
+18:49:53:486,LOG CommandsMidi.getRandomNotes()
+18:49:53:486,LOG note , 6
+18:49:53:486,LOG note , 1
+18:49:53:486,LOG note , 1
+18:49:53:486,LOG note , 5
+18:49:53:486,LOG note , 1
+18:49:53:486,LOG ...startEarTrainer()
+18:49:54:138,LOG ...EarTrainer()
+18:49:54:139,LOG ...initPanelNorth()
+18:49:54:282,LOG EarTrainer.initPanelSouth()
+18:49:56:503,LOG EarTrainer.actionPerformed(ActionEvent)
+18:49:56:503,LOG MySequencer.playNote(), 60
+18:49:58:410,LOG EarTrainer.actionPerformed(ActionEvent)
+18:49:58:411,LOG MySequencer.playNote(), 60
+18:50:22:624,LOG CommandsMidi.testRandomNotes()
+18:50:22:655,LOG CommandsMidi.getRandomNotes()
+18:50:22:655,LOG note , 3
+18:50:22:655,LOG note , 3
+18:50:22:655,LOG note , 1
+18:50:22:655,LOG note , 1
+18:50:22:655,LOG note , 1
+18:50:22:655,LOG ...startEarTrainer()
+18:50:23:363,LOG ...EarTrainer()
+18:50:23:364,LOG ...initPanelNorth()
+18:50:23:462,LOG EarTrainer.initPanelSouth()
+18:50:27:043,LOG EarTrainer.actionPerformed(ActionEvent)
+18:50:27:044,LOG MySequencer.playNote(), 60
+18:50:30:186,LOG EarTrainer.actionPerformed(ActionEvent)
+18:50:30:187,LOG MySequencer.playNote(), 60
+18:51:53:010,LOG CommandsMidi.testRandomNotes()
+18:51:53:025,LOG CommandsMidi.getRandomNotes()
+18:51:53:025,LOG note , 6
+18:51:53:025,LOG note , 1
+18:51:53:025,LOG note , 5
+18:51:53:025,LOG note , 6
+18:51:53:025,LOG note , 1
+18:51:53:041,LOG ...startEarTrainer()
+18:51:53:681,LOG ...EarTrainer()
+18:51:53:683,LOG ...initPanelNorth()
+18:51:53:781,LOG EarTrainer.initPanelSouth()
+18:51:55:338,LOG EarTrainer.actionPerformed(ActionEvent)
+18:51:55:339,LOG MySequencer.playNote(), 60
+18:52:18:789,LOG CommandsMidi.testRandomNotes()
+18:52:18:805,LOG CommandsMidi.getRandomNotes()
+18:52:18:820,LOG note , 1
+18:52:18:820,LOG note , 1
+18:52:18:820,LOG note , 6
+18:52:18:820,LOG note , 5
+18:52:18:820,LOG note , 1
+18:52:18:820,LOG ...startEarTrainer()
+18:52:19:700,LOG ...EarTrainer()
+18:52:19:701,LOG ...initPanelNorth()
+18:52:19:787,LOG EarTrainer.initPanelSouth()
+18:52:21:426,LOG EarTrainer.actionPerformed(ActionEvent)
+18:52:21:427,LOG MySequencer.playNote(), 60
+18:52:26:458,LOG EarTrainer.actionPerformed(ActionEvent)
+18:52:26:459,LOG MySequencer.playNote(), 60
+18:52:49:262,LOG CommandsMidi.testRandomNotes()
+18:52:49:294,LOG CommandsMidi.getRandomNotes()
+18:52:49:294,LOG note , 1
+18:52:49:294,LOG note , 6
+18:52:49:294,LOG note , 1
+18:52:49:294,LOG note , 3
+18:52:49:294,LOG note , 6
+18:52:49:294,LOG ...startEarTrainer()
+18:52:50:148,LOG ...EarTrainer()
+18:52:50:149,LOG ...initPanelNorth()
+18:52:50:259,LOG EarTrainer.initPanelSouth()
+18:52:52:510,LOG ...playMelody()
+18:52:52:520,LOG getSequence(List<Integer>)
+18:52:52:524,LOG MySequence.playSequence(Sequence)
+18:52:56:858,LOG EarTrainer.actionPerformed(ActionEvent)
+19:38:51:264,LOG CommandsMidi.testRandomNotes()
+19:38:51:468,LOG CommandsMidi.getRandomNotes()
+19:38:51:468,LOG note , 5
+19:38:51:468,LOG note , 1
+19:38:51:468,LOG note , 3
+19:38:51:468,LOG note , 6
+19:38:51:468,LOG note , 1
+19:38:51:468,LOG ...startEarTrainer()
+19:39:00:537,LOG ...EarTrainer()
+19:39:00:538,LOG ...initPanelNorth()
+19:39:01:571,LOG EarTrainer.initPanelSouth()
+19:39:01:574,LOG ...initPanelWest()
+19:44:03:861,LOG CommandsMidi.testRandomNotes()
+19:44:03:892,LOG CommandsMidi.getRandomNotes()
+19:44:03:892,LOG note , 6
+19:44:03:892,LOG note , 3
+19:44:03:892,LOG note , 6
+19:44:03:892,LOG note , 1
+19:44:03:892,LOG note , 3
+19:44:03:892,LOG ...startEarTrainer()
+19:44:04:771,LOG ...EarTrainer()
+19:44:04:773,LOG ...initPanelNorth()
+19:44:04:878,LOG EarTrainer.initPanelSouth()
+19:44:04:881,LOG ...initPanelWest()
+19:44:38:416,LOG CommandsMidi.testRandomNotes()
+19:44:38:447,LOG CommandsMidi.getRandomNotes()
+19:44:38:447,LOG note , 6
+19:44:38:447,LOG note , 1
+19:44:38:447,LOG note , 3
+19:44:38:447,LOG note , 1
+19:44:38:447,LOG note , 5
+19:44:38:447,LOG ...startEarTrainer()
+19:44:39:346,LOG ...EarTrainer()
+19:44:39:348,LOG ...initPanelNorth()
+19:44:39:434,LOG EarTrainer.initPanelSouth()
+19:44:39:438,LOG ...initPanelWest()
+19:46:30:686,LOG CommandsMidi.testRandomNotes()
+19:46:30:701,LOG CommandsMidi.getRandomNotes()
+19:46:30:701,LOG note , 1
+19:46:30:717,LOG note , 3
+19:46:30:717,LOG note , 5
+19:46:30:717,LOG note , 5
+19:46:30:717,LOG note , 1
+19:46:30:717,LOG ...startEarTrainer()
+19:46:31:588,LOG ...EarTrainer()
+19:46:31:589,LOG ...initPanelNorth()
+19:46:31:688,LOG EarTrainer.initPanelSouth()
+19:46:31:692,LOG ...initPanelWest()
+19:48:41:338,LOG CommandsMidi.testRandomNotes()
+19:48:41:369,LOG CommandsMidi.getRandomNotes()
+19:48:41:369,LOG note , 6
+19:48:41:369,LOG note , 6
+19:48:41:369,LOG note , 3
+19:48:41:369,LOG note , 1
+19:48:41:369,LOG note , 6
+19:48:41:369,LOG ...startEarTrainer()
+19:48:42:267,LOG ...EarTrainer()
+19:48:42:269,LOG ...initPanelWest()
+19:48:42:270,LOG ...initPanelNorth()
+19:48:42:365,LOG EarTrainer.initPanelSouth()
+19:49:03:129,LOG CommandsMidi.testRandomNotes()
+19:49:03:151,LOG CommandsMidi.getRandomNotes()
+19:49:03:151,LOG note , 6
+19:49:03:151,LOG note , 5
+19:49:03:151,LOG note , 6
+19:49:03:151,LOG note , 1
+19:49:03:151,LOG note , 3
+19:49:03:151,LOG ...startEarTrainer()
+19:49:04:001,LOG ...EarTrainer()
+19:49:04:003,LOG ...initPanelWest()
+19:49:04:004,LOG ...initPanelNorth()
+19:49:04:113,LOG EarTrainer.initPanelSouth()
+19:49:41:293,LOG CommandsMidi.testRandomNotes()
+19:49:41:324,LOG CommandsMidi.getRandomNotes()
+19:49:41:324,LOG note , 6
+19:49:41:324,LOG note , 6
+19:49:41:324,LOG note , 3
+19:49:41:324,LOG note , 3
+19:49:41:324,LOG note , 6
+19:49:41:324,LOG ...startEarTrainer()
+19:49:42:111,LOG ...EarTrainer()
+19:49:42:112,LOG ...initPanelWest()
+19:49:42:113,LOG ...initPanelNorth()
+19:49:42:206,LOG EarTrainer.initPanelSouth()
+19:50:00:248,LOG CommandsMidi.testRandomNotes()
+19:50:00:264,LOG CommandsMidi.getRandomNotes()
+19:50:00:264,LOG note , 3
+19:50:00:264,LOG note , 3
+19:50:00:264,LOG note , 3
+19:50:00:264,LOG note , 1
+19:50:00:264,LOG note , 3
+19:50:00:264,LOG ...startEarTrainer()
+19:50:01:128,LOG ...EarTrainer()
+19:50:01:129,LOG ...initPanelWest()
+19:50:01:131,LOG ...initPanelNorth()
+19:50:01:229,LOG EarTrainer.initPanelSouth()
+19:52:23:392,LOG CommandsMidi.testRandomNotes()
+19:52:23:407,LOG CommandsMidi.getRandomNotes()
+19:52:23:407,LOG note , 1
+19:52:23:407,LOG note , 6
+19:52:23:407,LOG note , 6
+19:52:23:407,LOG note , 3
+19:52:23:407,LOG note , 5
+19:52:23:407,LOG ...startEarTrainer()
+19:52:24:290,LOG ...EarTrainer()
+19:52:24:322,LOG ...initPanelWest()
+19:52:24:323,LOG ...initPanelNorth()
+19:52:24:426,LOG EarTrainer.initPanelSouth()
+19:52:26:749,LOG EarTrainer.actionPerformed(ActionEvent)
+19:52:26:750,LOG MySequencer.playNote(), 60
+19:52:27:434,LOG EarTrainer.actionPerformed(ActionEvent)
+19:52:27:434,LOG MySequencer.playNote(), 64
+19:52:28:309,LOG EarTrainer.actionPerformed(ActionEvent)
+19:52:28:310,LOG MySequencer.playNote(), 67
+19:52:31:989,LOG EarTrainer.actionPerformed(ActionEvent)
+19:52:31:990,LOG MySequencer.playNote(), 60
+19:52:34:985,LOG EarTrainer.actionPerformed(ActionEvent)
+19:52:34:986,LOG MySequencer.playNote(), 65
+19:52:35:818,LOG EarTrainer.actionPerformed(ActionEvent)
+19:52:35:819,LOG MySequencer.playNote(), 64
+20:07:53:563,LOG CommandsMidi.testRandomNotes()
+20:07:53:594,LOG CommandsMidi.getRandomNotes()
+20:07:53:594,LOG note , 5
+20:07:53:594,LOG note , 3
+20:07:53:594,LOG note , 3
+20:07:53:594,LOG note , 5
+20:07:53:594,LOG note , 6
+20:07:53:594,LOG ...startEarTrainer()
+20:07:54:764,LOG ...EarTrainer()
+20:07:54:766,LOG ...initPanelWest()
+20:07:54:767,LOG ...initPanelNorth()
+20:07:54:858,LOG EarTrainer.initPanelSouth()
+20:07:58:006,LOG EarTrainer.actionPerformed(ActionEvent)
+20:07:58:006,LOG MySequencer.playNote(), 60
+20:07:59:557,LOG EarTrainer.actionPerformed(ActionEvent)
+20:07:59:558,LOG MySequencer.playNote(), 64
+20:08:30:652,LOG CommandsMidi.testRandomNotes()
+20:08:30:672,LOG CommandsMidi.getRandomNotes()
+20:08:30:672,LOG note , 6
+20:08:30:672,LOG note , 1
+20:08:30:672,LOG note , 6
+20:08:30:672,LOG note , 3
+20:08:30:672,LOG note , 1
+20:08:30:672,LOG ...startEarTrainer()
+20:08:31:644,LOG ...EarTrainer()
+20:08:31:645,LOG ...initPanelWest()
+20:08:31:647,LOG ...initPanelNorth()
+20:08:31:749,LOG EarTrainer.initPanelSouth()
+20:08:34:085,LOG EarTrainer.actionPerformed(ActionEvent)
+20:08:34:086,LOG MySequencer.playNote(), 64
+20:08:35:966,LOG EarTrainer.actionPerformed(ActionEvent)
+20:08:35:966,LOG MySequencer.playNote(), 67
+21:23:12:806,LOG ...addPanelNorth()
+21:30:30:520,LOG ...addPanelNorth()
+21:34:56:044,LOG ...addPanelNorth()
+21:34:56:135,LOG ...initPanelCenter()
+21:35:23:718,LOG ...addPanelNorth()
+21:35:23:829,LOG ...initPanelCenter()
+21:37:08:202,LOG ...addPanelNorth()
+21:37:08:280,LOG ...initPanelCenter()
+21:37:45:895,LOG ...addPanelNorth()
+21:37:46:004,LOG ...initPanelCenter()
+21:38:27:321,LOG ...addPanelNorth()
+21:38:28:221,LOG ...initPanelCenter()
+10:21:57:497,LOG ShortMessageGUI.sendMessage()
+10:21:57:575,LOG status, 124
+10:21:57:575,LOG data1, 125
+10:21:57:575,LOG data2, 126
+10:49:58:542,LOG ShortMessageGUI.sendMessage()
+10:49:58:554,LOG command, 144
+10:49:58:554,LOG channel, 2
+10:49:58:555,LOG data1, 61
+10:49:58:556,LOG data2, 100
+10:50:05:689,LOG ShortMessageGUI.sendMessage()
+10:50:05:690,LOG command, 144
+10:50:05:690,LOG channel, 2
+10:50:05:691,LOG data1, 63
+10:50:05:691,LOG data2, 100
+11:05:15:429,LOG ShortMessageGUI.onCommandChange()
+11:05:15:441,LOG command, NOTE_OFF
+11:05:19:667,LOG ShortMessageGUI.onCommandChange()
+11:05:19:667,LOG command, PROGRAM_CHANGE
+11:11:34:151,LOG ShortMessageGUI.sendMessage()
+11:11:34:170,LOG command, 144
+11:11:34:170,LOG channel, 4
+11:11:34:171,LOG data1, 66
+11:11:34:171,LOG data2, 55
+11:11:43:182,LOG ShortMessageGUI.sendMessage()
+11:11:43:183,LOG command, 144
+11:11:43:183,LOG channel, 4
+11:11:43:184,LOG data1, 66
+11:11:43:184,LOG data2, 127
+11:11:52:662,LOG ShortMessageGUI.sendMessage()
+11:11:52:663,LOG command, 144
+11:11:52:663,LOG channel, 4
+11:11:52:664,LOG data1, 66
+11:11:52:664,LOG data2, 12
+11:12:00:477,LOG ShortMessageGUI.sendMessage()
+11:12:00:478,LOG command, 144
+11:12:00:478,LOG channel, 4
+11:12:00:479,LOG data1, 66
+11:12:00:479,LOG data2, 24
+11:12:08:326,LOG ShortMessageGUI.sendMessage()
+11:12:08:327,LOG command, 144
+11:12:08:327,LOG channel, 4
+11:12:08:328,LOG data1, 66
+11:12:08:329,LOG data2, 20
+11:12:16:990,LOG ShortMessageGUI.sendMessage()
+11:12:16:991,LOG command, 144
+11:12:16:991,LOG channel, 4
+11:12:16:992,LOG data1, 66
+11:12:16:992,LOG data2, 18
+11:55:08:779,LOG welcome to a cosy midi session
+11:55:16:019,LOG ConsoleMidi.changeInstrument()
+12:15:28:072,LOG welcome to a cosy midi session
+12:15:36:553,LOG ConsoleMidi.changeInstrument()
+12:15:36:553,LOG CFNotePlayer() constructor
+12:15:36:827,LOG NotePlayer.playNoteC() channel 0
+12:15:37:653,LOG NotePlayer.playOffC() channel 0
+12:15:43:731,LOG ConsoleMidi.changeInstrument()
+12:15:43:731,LOG CFNotePlayer() constructor
+12:15:43:732,LOG NotePlayer.playNoteC() channel 0
+12:15:45:231,LOG NotePlayer.playOffC() channel 0
+12:37:50:710,LOG welcome to a cosy midi session
+12:38:00:910,LOG ConsoleMidi.changeInstrument()
+12:38:00:925,LOG CFNotePlayer() constructor
+12:38:01:175,LOG NotePlayer.playNoteC() channel 0
+12:38:02:387,LOG NotePlayer.playOffC() channel 0
+12:38:02:388,LOG NotePlayer.changeInstrumentHardCoded()
+12:38:02:389,LOG will go for instrument 78, haven't got the foggiest...
+12:38:02:389,LOG NotePlayer.playNoteC() channel 0
+14:59:58:011,LOG CFNotePlayer() constructor
+15:00:00:034,LOG welcome to a glorious note player session
+15:00:07:825,LOG NotePlayer.listLoadedInstruments()
+15:01:21:319,LOG CFNotePlayer() constructor
+15:01:21:600,LOG welcome to a glorious note player session
+15:01:27:937,LOG NotePlayer.listLoadedInstruments()
+15:11:43:551,LOG CFNotePlayer() constructor
+15:11:43:850,LOG welcome to a glorious note player session
+15:12:01:039,LOG NotePlayer.changeInstrument
+15:12:08:698,LOG NotePlayer.changeInstrument(channel, instrument) ch: 0, instr: 36
+15:15:58:467,LOG CFNotePlayer() constructor
+15:15:58:754,LOG welcome to a glorious note player session
+15:16:19:786,LOG NotePlayer.changeInstrument
+15:16:34:022,LOG NotePlayer.changeInstrument(channel, instrument) ch: 0, instr: 36
+15:16:39:519,LOG NotePlayer.playNoteC() channel 0
+15:16:39:520,LOG NotePlayer.playOffC() channel 0
+15:17:16:636,LOG CFNotePlayer() constructor
+15:17:16:908,LOG welcome to a glorious note player session
+15:17:28:926,LOG NotePlayer.changeInstrument
+15:17:34:467,LOG NotePlayer.changeInstrument(channel, instrument) ch: 0, instr: 37
+15:17:38:132,LOG NotePlayer.playNoteC() channel 0
+15:18:55:621,LOG CFNotePlayer() constructor
+15:18:55:915,LOG welcome to a glorious note player session
+15:19:09:107,LOG NotePlayer.changeInstrument
+15:19:16:444,LOG NotePlayer.changeInstrument(channel, instrument) ch: 0, instr: 78
+15:19:19:475,LOG NotePlayer.playNoteC() channel 0
+15:19:23:305,LOG NotePlayer.playOffC() channel 0
+15:19:33:632,LOG NotePlayer.changeInstrument
+15:19:38:406,LOG NotePlayer.changeInstrument(channel, instrument) ch: 0, instr: 36
+15:19:42:435,LOG NotePlayer.playNoteC() channel 0
+15:19:44:854,LOG NotePlayer.playOffC() channel 0
+17:18:18:040,LOG log to file: true
+17:18:18:106,LOG log started, file: , log.txt
+17:18:18:137,LOG log file size (mbs) : 3,926694
+17:18:18:137,LOG util.jar version , 2023:03:09a
+17:28:20:820,LOG log to file: true
+17:28:20:835,LOG log started, file: , log.txt
+17:28:20:835,LOG log file size (mbs) : 3,926863
+17:28:20:835,LOG util.jar version , 2023:03:09a
+17:28:21:446,LOG MidiPlayer.getLoadedInstruments
+17:29:36:938,LOG log to file: true
+17:29:36:953,LOG log started, file: , log.txt
+17:29:36:953,LOG log file size (mbs) : 3,927078
+17:29:36:953,LOG util.jar version , 2023:03:09a
+17:29:37:390,LOG MidiPlayer.getLoadedInstruments
+17:29:37:392,LOG MidiPlayer.getLoadedInstruments
+17:31:14:245,LOG log to file: true
+17:31:14:261,LOG log started, file: , log.txt
+17:31:14:261,LOG log file size (mbs) : 3,927341
+17:31:14:261,LOG util.jar version , 2023:03:09a
+17:31:15:546,LOG MidiPlayer.getLoadedInstruments
+17:31:15:561,LOG MidiPlayer.getLoadedInstruments
+17:37:12:874,LOG log to file: true
+17:37:12:889,LOG log started, file: , log.txt
+17:37:12:889,LOG log file size (mbs) : 3,927603
+17:37:12:889,LOG util.jar version , 2023:03:09a
+17:37:13:840,LOG MidiPlayer.getLoadedInstruments
+17:37:28:538,LOG MidiPlayer.send(ShortMessage)
+17:37:33:581,LOG MidiPlayer.send(ShortMessage)
+20:23:34:314,LOG log to file: true
+20:23:34:523,LOG log started, file: , log.txt
+20:23:34:554,LOG log file size (mbs) : 3,927908
+20:23:34:554,LOG util.jar version , 2023:03:09a
+20:23:44:978,LOG MidiPlayer.getLoadedInstruments
+20:24:34:073,LOG log to file: true
+20:24:34:073,LOG log started, file: , log.txt
+20:24:34:088,LOG log file size (mbs) : 3,928123
+20:24:34:088,LOG util.jar version , 2023:03:09a
+20:24:34:995,LOG MidiPlayer.getLoadedInstruments
+20:27:14:581,LOG log to file: true
+20:27:14:596,LOG log started, file: , log.txt
+20:27:14:596,LOG log file size (mbs) : 3,928339
+20:27:14:596,LOG util.jar version , 2023:03:09a
+20:27:15:483,LOG MidiPlayer.getLoadedInstruments
+20:29:34:395,LOG log to file: true
+20:29:34:410,LOG log started, file: , log.txt
+20:29:34:410,LOG log file size (mbs) : 3,928555
+20:29:34:410,LOG util.jar version , 2023:03:09a
+20:29:35:485,LOG MidiPlayer.getLoadedInstruments
+20:48:11:722,LOG log to file: true
+20:48:11:753,LOG log started, file: , log.txt
+20:48:11:753,LOG log file size (mbs) : 3,928770
+20:48:11:753,LOG util.jar version , 2023:03:09a
+20:48:12:608,LOG MidiPlayer.getLoadedInstruments
+20:49:34:873,LOG log to file: true
+20:49:34:873,LOG log started, file: , log.txt
+20:49:34:888,LOG log file size (mbs) : 3,928986
+20:49:34:888,LOG util.jar version , 2023:03:09a
+20:49:35:893,LOG MidiPlayer.getLoadedInstruments
+20:49:39:047,LOG point, java.awt.Point[x=87,y=207]
+20:49:44:789,LOG point, java.awt.Point[x=87,y=207]
+20:49:45:620,LOG point, java.awt.Point[x=87,y=207]
+20:52:05:542,LOG log to file: true
+20:52:05:542,LOG log started, file: , log.txt
+20:52:05:557,LOG log file size (mbs) : 3,929347
+20:52:05:557,LOG util.jar version , 2023:03:09a
+20:52:06:443,LOG MidiPlayer.getLoadedInstruments
+20:55:28:114,LOG log to file: true
+20:55:28:129,LOG log started, file: , log.txt
+20:55:28:129,LOG log file size (mbs) : 3,929563
+20:55:28:129,LOG util.jar version , 2023:03:09a
+20:55:28:983,LOG MidiPlayer.getLoadedInstruments
+20:57:23:913,LOG log to file: true
+20:57:23:913,LOG log started, file: , log.txt
+20:57:23:929,LOG log file size (mbs) : 3,929778
+20:57:23:929,LOG util.jar version , 2023:03:09a
+20:57:24:872,LOG MidiPlayer.getLoadedInstruments
+20:57:43:040,LOG MidiPlayer.send(ShortMessage)
+20:58:10:859,LOG MidiPlayer.send(ShortMessage)
+20:58:20:039,LOG MidiPlayer.send(ShortMessage)
+20:58:30:528,LOG MidiPlayer.send(ShortMessage)
+20:58:47:747,LOG MidiPlayer.send(ShortMessage)
+20:59:19:874,LOG MidiPlayer.send(ShortMessage)
+20:59:35:649,LOG MidiPlayer.send(ShortMessage)
+10:11:33:399,LOG MidiPlayer.send(ShortMessage)
+10:13:20:413,LOG log to file: true
+10:13:20:460,LOG log started, file: , log.txt
+10:13:20:476,LOG log file size (mbs) : 3,930352
+10:13:20:476,LOG util.jar version , 2023:03:09a
+10:13:26:624,LOG ...EarTrainer()
+10:13:26:625,LOG ...initPanelWest()
+10:13:26:626,LOG ...initPanelNorth()
+10:13:27:567,LOG EarTrainer.initPanelSouth()
+10:13:31:707,LOG EarTrainer.actionPerformed(ActionEvent)
+10:13:31:708,LOG MySequencer.playNote(), 60
+10:13:32:994,LOG EarTrainer.actionPerformed(ActionEvent)
+10:13:32:995,LOG MySequencer.playNote(), 64
+10:13:34:330,LOG EarTrainer.actionPerformed(ActionEvent)
+10:13:34:330,LOG MySequencer.playNote(), 69
+10:13:35:298,LOG EarTrainer.actionPerformed(ActionEvent)
+10:13:35:299,LOG MySequencer.playNote(), 72
+10:13:40:758,LOG ...playMelody()
+10:13:40:936,LOG getSequence(List<Integer>)
+10:13:40:959,LOG MySequence.playSequence(Sequence)
+10:13:46:194,LOG ...playMelody()
+10:13:46:197,LOG getSequence(List<Integer>)
+10:13:46:199,LOG MySequence.playSequence(Sequence)
+10:13:51:083,LOG ...playMelody()
+10:13:51:085,LOG getSequence(List<Integer>)
+10:13:51:087,LOG MySequence.playSequence(Sequence)
+10:15:12:413,LOG log to file: true
+10:15:12:413,LOG log started, file: , log.txt
+10:15:12:413,LOG log file size (mbs) : 3,931417
+10:15:12:413,LOG util.jar version , 2023:03:09a
+10:15:13:202,LOG ...EarTrainer()
+10:15:13:204,LOG ...initPanelWest()
+10:15:13:206,LOG ...initPanelNorth()
+10:15:13:303,LOG EarTrainer.initPanelSouth()
+10:49:01:226,LOG log to file: true
+10:49:01:243,LOG log started, file: , log.txt
+10:49:01:243,LOG log file size (mbs) : 3,931729
+10:49:01:243,LOG util.jar version , 2023:03:09a
+10:49:01:276,LOG ConsoleEarMaster.generateMelody()
+10:51:42:910,LOG log to file: true
+10:51:42:926,LOG log started, file: , log.txt
+10:51:42:926,LOG log file size (mbs) : 3,931947
+10:51:42:926,LOG util.jar version , 2023:03:09a
+10:51:42:941,LOG ConsoleEarMaster.generateMelody()
+10:54:13:893,LOG log to file: true
+10:54:13:909,LOG log started, file: , log.txt
+10:54:13:909,LOG log file size (mbs) : 3,932164
+10:54:13:909,LOG util.jar version , 2023:03:09a
+10:54:13:925,LOG ConsoleEarMaster.generateMelody()
+10:57:50:266,LOG log to file: true
+10:57:50:266,LOG log started, file: , log.txt
+10:57:50:266,LOG log file size (mbs) : 3,932382
+10:57:50:282,LOG util.jar version , 2023:03:09a
+14:10:13:246,LOG log to file: true
+14:10:13:309,LOG log started, file: , log.txt
+14:10:13:340,LOG log file size (mbs) : 3,932550
+14:10:13:340,LOG util.jar version , 2023:03:09a
+14:10:54:096,LOG log to file: true
+14:10:54:096,LOG log started, file: , log.txt
+14:10:54:096,LOG log file size (mbs) : 3,932719
+14:10:54:111,LOG util.jar version , 2023:03:09a
+14:10:58:833,LOG ...EarTrainer()
+14:10:58:833,LOG ...initPanelWest()
+14:10:58:964,LOG ...initPanelNorth()
+14:10:59:980,LOG EarTrainer.initPanelSouth()
+14:18:05:833,LOG log to file: true
+14:18:05:848,LOG log started, file: , log.txt
+14:18:05:848,LOG log file size (mbs) : 3,933032
+14:18:05:848,LOG util.jar version , 2023:03:09a
+14:18:06:613,LOG ...EarTrainer()
+14:18:06:615,LOG EarTrainer.initMenuBar()
+14:18:06:764,LOG ...initPanelWest()
+14:18:06:769,LOG ...initPanelNorth()
+14:18:06:851,LOG EarTrainer.initPanelSouth()
+14:18:14:211,LOG EarTrainer.createMelody()
+14:24:59:469,LOG log to file: true
+14:24:59:469,LOG log started, file: , log.txt
+14:24:59:485,LOG log file size (mbs) : 3,933426
+14:24:59:485,LOG util.jar version , 2023:03:09a
+14:25:00:402,LOG ...EarTrainer()
+14:25:00:403,LOG EarTrainer.initDevStuff()
+14:25:00:404,LOG EarTrainer.initMenuBar()
+14:25:00:427,LOG ...initPanelWest()
+14:25:00:433,LOG ...initPanelNorth()
+14:25:00:500,LOG EarTrainer.initPanelSouth()
+14:25:08:859,LOG ...playMelody()
+14:25:09:003,LOG getSequence(List<Integer>)
+14:25:09:028,LOG MySequence.playSequence(Sequence)
+14:25:43:164,LOG EarTrainer.actionPerformed(ActionEvent)
+14:25:43:165,LOG MySequencer.playNote(), 60
+14:25:44:428,LOG EarTrainer.actionPerformed(ActionEvent)
+14:25:44:429,LOG MySequencer.playNote(), 64
+14:25:48:068,LOG EarTrainer.actionPerformed(ActionEvent)
+14:25:48:069,LOG MySequencer.playNote(), 67
+14:25:49:147,LOG EarTrainer.actionPerformed(ActionEvent)
+14:25:49:148,LOG MySequencer.playNote(), 67
+14:25:54:260,LOG EarTrainer.repeatMelody()
+14:25:54:261,LOG MySequence.playSequence(Sequence)
+14:25:57:451,LOG EarTrainer.actionPerformed(ActionEvent)
+14:25:57:452,LOG MySequencer.playNote(), 60
+14:26:02:459,LOG EarTrainer.actionPerformed(ActionEvent)
+14:26:02:460,LOG MySequencer.playNote(), 64
+14:26:05:547,LOG EarTrainer.repeatMelody()
+14:26:05:547,LOG MySequence.playSequence(Sequence)
+14:26:08:283,LOG EarTrainer.actionPerformed(ActionEvent)
+14:26:08:284,LOG MySequencer.playNote(), 62
+14:26:10:115,LOG EarTrainer.actionPerformed(ActionEvent)
+14:26:10:116,LOG MySequencer.playNote(), 67
+14:26:15:444,LOG EarTrainer.repeatMelody()
+14:26:15:444,LOG MySequence.playSequence(Sequence)
+14:26:18:707,LOG EarTrainer.actionPerformed(ActionEvent)
+14:26:18:708,LOG MySequencer.playNote(), 64
+14:26:20:203,LOG EarTrainer.actionPerformed(ActionEvent)
+14:26:20:204,LOG MySequencer.playNote(), 65
+14:26:27:323,LOG EarTrainer.actionPerformed(ActionEvent)
+14:26:27:324,LOG MySequencer.playNote(), 60
+14:26:48:397,LOG EarTrainer.createMelody()
+14:38:48:399,LOG log to file: true
+14:38:48:399,LOG log started, file: , log.txt
+14:38:48:415,LOG log file size (mbs) : 3,935311
+14:38:48:415,LOG util.jar version , 2023:03:09a
+14:38:49:385,LOG ...EarTrainer()
+14:38:49:388,LOG EarTrainer.initDevStuff()
+14:38:49:389,LOG EarTrainer.initMenuBar()
+14:38:49:414,LOG ...initPanelWest()
+14:38:49:419,LOG ...initPanelNorth()
+14:38:49:510,LOG EarTrainer.initPanelSouth()
+14:38:51:784,LOG ...playMelody()
+14:38:51:793,LOG getSequence(List<Integer>)
+14:38:51:796,LOG MySequence.playSequence(Sequence)
+14:38:55:902,LOG MySequencer.playNote(), 60
+14:38:56:159,LOG MySequencer.noteOff(int) , 60
+14:38:56:596,LOG MySequencer.playNote(), 60
+14:38:56:840,LOG MySequencer.noteOff(int) , 60
+14:38:59:342,LOG MySequencer.playNote(), 65
+14:38:59:460,LOG MySequencer.noteOff(int) , 65
+14:39:02:344,LOG EarTrainer.repeatMelody()
+14:39:02:345,LOG MySequence.playSequence(Sequence)
+14:39:05:390,LOG MySequencer.playNote(), 62
+14:39:05:576,LOG MySequencer.noteOff(int) , 62
+14:39:08:328,LOG EarTrainer.repeatMelody()
+14:39:08:329,LOG MySequence.playSequence(Sequence)
+14:39:11:302,LOG MySequencer.playNote(), 64
+14:39:11:524,LOG MySequencer.noteOff(int) , 64
+14:39:23:574,LOG MySequencer.playNote(), 60
+14:39:23:696,LOG MySequencer.noteOff(int) , 60
+14:39:29:449,LOG MySequencer.playNote(), 62
+14:39:29:599,LOG MySequencer.noteOff(int) , 62
+14:39:31:817,LOG MySequencer.playNote(), 64
+14:39:31:960,LOG MySequencer.noteOff(int) , 64
+14:39:37:730,LOG MySequencer.playNote(), 62
+14:39:37:864,LOG MySequencer.noteOff(int) , 62
+14:39:38:990,LOG MySequencer.playNote(), 64
+14:39:39:144,LOG MySequencer.noteOff(int) , 64
+17:08:06:127,LOG log to file: true
+17:08:06:560,LOG log started, file: , log.txt
+17:08:06:637,LOG log file size (mbs) : 3,936874
+17:08:06:652,LOG util.jar version , 2023:03:09a
+17:08:20:598,LOG ...EarTrainer()
+17:08:20:649,LOG EarTrainer.initDevStuff()
+17:08:20:650,LOG EarTrainer.initMenuBar()
+17:08:21:481,LOG ...initPanelWest()
+17:08:21:710,LOG ...initPanelNorth()
+17:08:26:549,LOG EarTrainer.initPanelSouth()
+17:12:24:406,LOG log to file: true
+17:12:24:422,LOG log started, file: , log.txt
+17:12:24:438,LOG log file size (mbs) : 3,937268
+17:12:24:439,LOG util.jar version , 2023:03:09a
+17:12:25:488,LOG ...EarTrainer()
+17:12:25:491,LOG EarTrainer.initDevStuff()
+17:12:25:492,LOG EarTrainer.initMenuBar()
+17:12:25:521,LOG ...initPanelWest()
+17:12:25:554,LOG ...initPanelNorth()
+17:12:25:601,LOG EarTrainer.initPanelSouth()
+17:12:33:022,LOG MySequencer.playNote(), 60
+17:12:33:172,LOG MySequencer.noteOff(int) , 60
+17:12:35:661,LOG MySequencer.playNote(), 62
+17:12:36:796,LOG MySequencer.noteOff(int) , 62
+17:12:37:785,LOG MySequencer.playNote(), 64
+17:12:37:919,LOG MySequencer.noteOff(int) , 64
+17:13:31:472,LOG log to file: true
+17:13:31:492,LOG log started, file: , log.txt
+17:13:31:494,LOG log file size (mbs) : 3,937922
+17:13:31:494,LOG util.jar version , 2023:03:09a
+17:13:32:288,LOG ...EarTrainer()
+17:13:32:289,LOG EarTrainer.initDevStuff()
+17:13:32:290,LOG EarTrainer.initMenuBar()
+17:13:32:313,LOG ...initPanelWest()
+17:13:32:352,LOG ...initPanelNorth()
+17:13:32:403,LOG EarTrainer.initPanelSouth()
+17:13:33:817,LOG MySequencer.playNote(), 65
+17:13:35:140,LOG MySequencer.noteOff(int) , 65
+17:13:38:246,LOG MySequencer.playNote(), 64
+17:13:38:364,LOG MySequencer.noteOff(int) , 64
+17:14:50:476,LOG log to file: true
+17:14:50:476,LOG log started, file: , log.txt
+17:14:50:476,LOG log file size (mbs) : 3,938490
+17:14:50:476,LOG util.jar version , 2023:03:09a
+17:14:51:496,LOG ...EarTrainer()
+17:14:51:498,LOG EarTrainer.initDevStuff()
+17:14:51:499,LOG EarTrainer.initMenuBar()
+17:14:51:522,LOG ...initPanelWest()
+17:14:51:558,LOG ...initPanelNorth()
+17:14:51:608,LOG EarTrainer.initPanelSouth()
+17:14:53:710,LOG MySequencer.playNote(), 60
+17:14:54:677,LOG MySequencer.noteOff(int) , 60
+17:14:56:062,LOG MySequencer.playNote(), 64
+17:14:56:588,LOG MySequencer.noteOff(int) , 64
+17:14:57:886,LOG MySequencer.playNote(), 65
+17:15:00:436,LOG MySequencer.noteOff(int) , 65
+17:15:02:426,LOG MySequencer.playNote(), 67
+17:15:02:540,LOG MySequencer.noteOff(int) , 67
+17:15:03:090,LOG MySequencer.playNote(), 65
+17:15:03:228,LOG MySequencer.noteOff(int) , 65
+17:15:03:790,LOG MySequencer.playNote(), 64
+17:15:03:932,LOG MySequencer.noteOff(int) , 64
+17:15:04:790,LOG MySequencer.playNote(), 60
+17:15:04:964,LOG MySequencer.noteOff(int) , 60
+13:18:10:756,LOG log to file: true
+13:18:10:818,LOG log started, file: , log.txt
+13:18:10:856,LOG log file size (mbs) : 3,939491
+13:18:10:856,LOG util.jar version , 2023:03:09a
+13:18:16:359,LOG ...EarTrainer()
+13:18:16:361,LOG EarTrainer.initDevStuff()
+13:18:16:362,LOG EarTrainer.initMenuBar()
+13:18:16:596,LOG ...initPanelWest()
+13:18:16:953,LOG ...initPanelNorth()
+13:18:17:469,LOG EarTrainer.initPanelSouth()
+13:18:20:678,LOG ...playMelody()
+13:18:20:680,LOG getSequence(List<Integer>)
+13:18:20:726,LOG Melody.getNotes()
+13:18:20:799,LOG getSequence(List<Integer>)
+13:18:20:803,LOG MySequence.playSequence(Sequence)
+13:18:28:310,LOG ...playMelody()
+13:18:28:311,LOG getSequence(List<Integer>)
+13:18:28:313,LOG Melody.getNotes()
+13:18:28:314,LOG getSequence(List<Integer>)
+13:18:28:316,LOG MySequence.playSequence(Sequence)
+13:18:45:318,LOG log to file: true
+13:18:45:333,LOG log started, file: , log.txt
+13:18:45:333,LOG log file size (mbs) : 3,940280
+13:18:45:333,LOG util.jar version , 2023:03:09a
+13:18:46:229,LOG ...EarTrainer()
+13:18:46:232,LOG EarTrainer.initDevStuff()
+13:18:46:233,LOG EarTrainer.initMenuBar()
+13:18:46:261,LOG ...initPanelWest()
+13:18:46:301,LOG ...initPanelNorth()
+13:18:46:368,LOG EarTrainer.initPanelSouth()
+13:18:53:281,LOG EarTrainer.createMelody()
+13:18:53:281,LOG MelodyFactory.getSequence(List<Integer>, number of notes
+13:19:03:463,LOG EarTrainer.createMelody()
+13:19:03:464,LOG MelodyFactory.getSequence(List<Integer>, number of notes
+19:39:03:345,LOG log to file: true
+19:39:03:408,LOG log started, file: , log.txt
+19:39:03:439,LOG log file size (mbs) : 3,940897
+19:39:03:439,LOG util.jar version , 2023:03:09a
+19:39:09:466,LOG ...EarTrainer()
+19:39:09:473,LOG EarTrainer.initDevStuff()
+19:39:09:474,LOG EarTrainer.initMenuBar()
+19:39:09:906,LOG ...initPanelWest()
+19:39:10:537,LOG ...initPanelNorth()
+19:39:11:154,LOG EarTrainer.initPanelSouth()
+19:45:53:463,LOG log to file: true
+19:45:53:541,LOG log started, file: , log.txt
+19:45:53:647,LOG log file size (mbs) : 3,941291
+19:45:53:647,LOG util.jar version , 2023:03:09a
+19:46:08:529,LOG ...EarTrainer()
+19:46:08:573,LOG EarTrainer.initDevStuff()
+19:46:08:574,LOG EarTrainer.initMenuBar()
+19:46:09:556,LOG ...initPanelWest()
+19:46:10:043,LOG ...initPanelNorth()
+19:46:10:531,LOG EarTrainer.initPanelSouth()
+19:46:21:840,LOG EarTrainer.generateMelody()
+19:46:21:842,LOG getSequence(List<Integer>)
+19:46:21:867,LOG Melody.getNotes()
+19:46:21:868,LOG note: , 66
+19:46:21:869,LOG note: , 61
+19:46:21:869,LOG note: , 65
+19:46:21:870,LOG note: , 63
+19:46:21:870,LOG note: , 61
+19:46:21:871,LOG note: , 65
+19:46:21:871,LOG note: , 66
+19:46:21:872,LOG note: , 65
+19:46:21:872,LOG number of tracks: , 1
+19:46:21:873,LOG ticks: : 15
+19:46:21:873,LOG size: , 17
+19:46:21:901,LOG status byte, 10010001
+19:46:21:902,LOG type of message, 1
+19:46:21:902,LOG channel, 1
+19:46:21:903,LOG status byte, 10000001
+19:46:21:904,LOG type of message, 0
+19:46:21:904,LOG channel, 1
+19:46:21:906,LOG status byte, 10010001
+19:46:21:906,LOG type of message, 1
+19:46:21:907,LOG channel, 1
+19:46:21:908,LOG status byte, 10000001
+19:46:21:909,LOG type of message, 0
+19:46:21:910,LOG channel, 1
+19:46:21:911,LOG status byte, 10010001
+19:46:21:912,LOG type of message, 1
+19:46:21:913,LOG channel, 1
+19:46:21:914,LOG status byte, 10000001
+19:46:21:915,LOG type of message, 0
+19:46:21:915,LOG channel, 1
+19:46:21:916,LOG status byte, 10010001
+19:46:21:917,LOG type of message, 1
+19:46:21:918,LOG channel, 1
+19:46:21:919,LOG status byte, 10000001
+19:46:21:919,LOG type of message, 0
+19:46:21:920,LOG channel, 1
+19:46:21:921,LOG status byte, 10010001
+19:46:21:921,LOG type of message, 1
+19:46:21:922,LOG channel, 1
+19:46:21:923,LOG status byte, 10000001
+19:46:21:923,LOG type of message, 0
+19:46:21:924,LOG channel, 1
+19:46:21:925,LOG status byte, 10010001
+19:46:21:925,LOG type of message, 1
+19:46:21:926,LOG channel, 1
+19:46:21:927,LOG status byte, 10000001
+19:46:21:927,LOG type of message, 0
+19:46:21:928,LOG channel, 1
+19:46:21:929,LOG status byte, 10010001
+19:46:21:929,LOG type of message, 1
+19:46:21:930,LOG channel, 1
+19:46:21:931,LOG status byte, 10000001
+19:46:21:931,LOG type of message, 0
+19:46:21:932,LOG channel, 1
+19:46:21:933,LOG status byte, 10010001
+19:46:21:933,LOG type of message, 1
+19:46:21:934,LOG channel, 1
+19:46:21:936,LOG status byte, 10000001
+19:46:21:936,LOG type of message, 0
+19:46:21:937,LOG channel, 1
+19:52:52:474,LOG log to file: true
+19:52:52:490,LOG log started, file: , log.txt
+19:52:52:490,LOG log file size (mbs) : 3,943680
+19:52:52:490,LOG util.jar version , 2023:03:09a
+19:52:53:560,LOG ...EarTrainer()
+19:52:53:561,LOG EarTrainer.initDevStuff()
+19:52:53:562,LOG EarTrainer.initMenuBar()
+19:52:53:586,LOG ...initPanelWest()
+19:52:53:622,LOG ...initPanelNorth()
+19:52:53:669,LOG EarTrainer.initPanelSouth()
+19:53:00:250,LOG EarTrainer.generateMelody()
+19:53:00:252,LOG getSequence(List<Integer>)
+19:53:00:259,LOG Melody.getNotes()
+19:53:00:260,LOG note: , 61
+19:53:00:261,LOG note: , 61
+19:53:00:262,LOG note: , 61
+19:53:00:262,LOG note: , 61
+19:53:00:263,LOG note: , 61
+19:53:00:263,LOG note: , 65
+19:53:00:264,LOG note: , 61
+19:53:00:264,LOG number of tracks: , 1
+19:53:00:265,LOG ticks: : 13
+19:53:00:265,LOG size: , 15
+19:53:00:267,LOG status byte, 10010001
+19:53:00:267,LOG type of message, 1
+19:53:00:268,LOG channel, 1
+19:53:00:269,LOG status byte, 10000001
+19:53:00:269,LOG type of message, 0
+19:53:00:270,LOG channel, 1
+19:53:00:271,LOG status byte, 10010001
+19:53:00:271,LOG type of message, 1
+19:53:00:272,LOG channel, 1
+19:53:00:273,LOG status byte, 10000001
+19:53:00:274,LOG type of message, 0
+19:53:00:275,LOG channel, 1
+19:53:00:276,LOG status byte, 10010001
+19:53:00:277,LOG type of message, 1
+19:53:00:277,LOG channel, 1
+19:53:00:279,LOG status byte, 10000001
+19:53:00:280,LOG type of message, 0
+19:53:00:280,LOG channel, 1
+19:53:00:281,LOG status byte, 10010001
+19:53:00:282,LOG type of message, 1
+19:53:00:282,LOG channel, 1
+19:53:00:284,LOG status byte, 10000001
+19:53:00:284,LOG type of message, 0
+19:53:00:285,LOG channel, 1
+19:53:00:286,LOG status byte, 10010001
+19:53:00:287,LOG type of message, 1
+19:53:00:287,LOG channel, 1
+19:53:00:289,LOG status byte, 10000001
+19:53:00:289,LOG type of message, 0
+19:53:00:290,LOG channel, 1
+19:53:00:291,LOG status byte, 10010001
+19:53:00:291,LOG type of message, 1
+19:53:00:292,LOG channel, 1
+19:53:00:293,LOG status byte, 10000001
+19:53:00:294,LOG type of message, 0
+19:53:00:294,LOG channel, 1
+19:53:00:296,LOG status byte, 10010001
+19:53:00:296,LOG type of message, 1
+19:53:00:297,LOG channel, 1
+19:53:00:298,LOG status byte, 10000001
+19:53:00:298,LOG type of message, 0
+19:53:00:299,LOG channel, 1
+19:53:05:226,LOG ...playMelody()
+19:55:09:220,LOG log to file: true
+19:55:09:235,LOG log started, file: , log.txt
+19:55:09:235,LOG log file size (mbs) : 3,945877
+19:55:09:235,LOG util.jar version , 2023:03:09a
+19:55:10:089,LOG ...EarTrainer()
+19:55:10:090,LOG EarTrainer.initDevStuff()
+19:55:10:091,LOG EarTrainer.initMenuBar()
+19:55:10:118,LOG ...initPanelWest()
+19:55:10:165,LOG ...initPanelNorth()
+19:55:10:209,LOG EarTrainer.initPanelSouth()
+19:55:16:954,LOG EarTrainer.generateMelody()
+19:55:16:956,LOG getSequence(List<Integer>)
+19:55:16:961,LOG Melody.getNotes()
+19:55:16:962,LOG note: , 66
+19:55:16:963,LOG note: , 66
+19:55:16:963,LOG note: , 65
+19:55:16:964,LOG note: , 63
+19:55:16:964,LOG note: , 66
+19:55:16:964,LOG note: , 63
+19:55:16:965,LOG number of tracks: , 1
+19:55:16:966,LOG ticks: : 11
+19:55:16:966,LOG size: , 13
+19:55:16:967,LOG status byte, 10010001
+19:55:16:968,LOG type of message, 1
+19:55:16:968,LOG channel, 1
+19:55:16:969,LOG status byte, 10000001
+19:55:16:970,LOG type of message, 0
+19:55:16:970,LOG channel, 1
+19:55:16:972,LOG status byte, 10010001
+19:55:16:972,LOG type of message, 1
+19:55:16:973,LOG channel, 1
+19:55:16:974,LOG status byte, 10000001
+19:55:16:974,LOG type of message, 0
+19:55:16:975,LOG channel, 1
+19:55:16:976,LOG status byte, 10010001
+19:55:16:976,LOG type of message, 1
+19:55:16:977,LOG channel, 1
+19:55:16:978,LOG status byte, 10000001
+19:55:16:978,LOG type of message, 0
+19:55:16:979,LOG channel, 1
+19:55:16:980,LOG status byte, 10010001
+19:55:16:980,LOG type of message, 1
+19:55:16:981,LOG channel, 1
+19:55:16:982,LOG status byte, 10000001
+19:55:16:983,LOG type of message, 0
+19:55:16:984,LOG channel, 1
+19:55:16:985,LOG status byte, 10010001
+19:55:16:985,LOG type of message, 1
+19:55:16:986,LOG channel, 1
+19:55:16:987,LOG status byte, 10000001
+19:55:16:988,LOG type of message, 0
+19:55:16:989,LOG channel, 1
+19:55:16:990,LOG status byte, 10010001
+19:55:16:991,LOG type of message, 1
+19:55:16:991,LOG channel, 1
+19:55:16:992,LOG status byte, 10000001
+19:55:16:992,LOG type of message, 0
+19:55:16:993,LOG channel, 1
+19:55:16:994,LOG Melody.getNotes()
+19:55:26:718,LOG ...playMelody()
+19:55:26:718,LOG MySequence.playSequence(Sequence)
+19:55:35:389,LOG EarTrainer.repeatMelody()
+19:55:35:389,LOG MySequence.playSequence(Sequence)
+19:57:21:952,LOG log to file: true
+19:57:21:968,LOG log started, file: , log.txt
+19:57:21:968,LOG log file size (mbs) : 3,948023
+19:57:21:968,LOG util.jar version , 2023:03:09a
+19:57:22:786,LOG ...EarTrainer()
+19:57:22:787,LOG EarTrainer.initDevStuff()
+19:57:22:788,LOG EarTrainer.initMenuBar()
+19:57:22:810,LOG ...initPanelWest()
+19:57:22:839,LOG ...initPanelNorth()
+19:57:22:887,LOG EarTrainer.initPanelSouth()
+19:57:29:692,LOG EarTrainer.generateMelody()
+19:57:29:694,LOG getSequence(List<Integer>)
+19:57:29:701,LOG Melody.getNotes()
+19:57:29:701,LOG note: , 63
+19:57:29:703,LOG note: , 63
+19:57:29:703,LOG note: , 61
+19:57:29:704,LOG note: , 63
+19:57:29:705,LOG note: , 61
+19:57:29:705,LOG note: , 66
+19:57:29:706,LOG note: , 63
+19:57:29:706,LOG note: , 65
+19:57:29:707,LOG note: , 66
+19:57:29:707,LOG number of tracks: , 1
+19:57:29:708,LOG ticks: : 17
+19:57:29:708,LOG size: , 19
+19:57:29:709,LOG status byte, 10010001
+19:57:29:710,LOG type of message, 1
+19:57:29:710,LOG channel, 1
+19:57:29:712,LOG status byte, 10000001
+19:57:29:712,LOG type of message, 0
+19:57:29:712,LOG channel, 1
+19:57:29:714,LOG status byte, 10010001
+19:57:29:715,LOG type of message, 1
+19:57:29:715,LOG channel, 1
+19:57:29:717,LOG status byte, 10000001
+19:57:29:717,LOG type of message, 0
+19:57:29:718,LOG channel, 1
+19:57:29:720,LOG status byte, 10010001
+19:57:29:720,LOG type of message, 1
+19:57:29:721,LOG channel, 1
+19:57:29:722,LOG status byte, 10000001
+19:57:29:723,LOG type of message, 0
+19:57:29:723,LOG channel, 1
+19:57:29:724,LOG status byte, 10010001
+19:57:29:725,LOG type of message, 1
+19:57:29:725,LOG channel, 1
+19:57:29:726,LOG status byte, 10000001
+19:57:29:726,LOG type of message, 0
+19:57:29:727,LOG channel, 1
+19:57:29:728,LOG status byte, 10010001
+19:57:29:728,LOG type of message, 1
+19:57:29:729,LOG channel, 1
+19:57:29:730,LOG status byte, 10000001
+19:57:29:730,LOG type of message, 0
+19:57:29:731,LOG channel, 1
+19:57:29:732,LOG status byte, 10010001
+19:57:29:732,LOG type of message, 1
+19:57:29:733,LOG channel, 1
+19:57:29:734,LOG status byte, 10000001
+19:57:29:735,LOG type of message, 0
+19:57:29:735,LOG channel, 1
+19:57:29:737,LOG status byte, 10010001
+19:57:29:737,LOG type of message, 1
+19:57:29:738,LOG channel, 1
+19:57:29:740,LOG status byte, 10000001
+19:57:29:741,LOG type of message, 0
+19:57:29:742,LOG channel, 1
+19:57:29:744,LOG status byte, 10010001
+19:57:29:745,LOG type of message, 1
+19:57:29:745,LOG channel, 1
+19:57:29:746,LOG status byte, 10000001
+19:57:29:747,LOG type of message, 0
+19:57:29:748,LOG channel, 1
+19:57:29:749,LOG status byte, 10010001
+19:57:29:749,LOG type of message, 1
+19:57:29:750,LOG channel, 1
+19:57:29:751,LOG status byte, 10000001
+19:57:29:751,LOG type of message, 0
+19:57:29:752,LOG channel, 1
+19:57:29:752,LOG Melody.getNotes()
+19:57:32:661,LOG ...playMelody()
+19:57:32:661,LOG MySequence.playSequence(Sequence)
+19:57:38:869,LOG EarTrainer.repeatMelody()
+19:57:38:870,LOG MySequence.playSequence(Sequence)
+19:57:59:368,LOG MySequencer.playNote(), 62
+19:57:59:501,LOG MySequencer.noteOff(int) , 62
+19:58:00:426,LOG MySequencer.playNote(), 60
+19:58:00:549,LOG MySequencer.noteOff(int) , 60
+19:58:01:095,LOG MySequencer.playNote(), 64
+19:58:01:205,LOG MySequencer.noteOff(int) , 64
+19:58:01:738,LOG MySequencer.playNote(), 65
+19:58:01:841,LOG MySequencer.noteOff(int) , 65
+19:58:02:398,LOG MySequencer.playNote(), 67
+19:58:02:533,LOG MySequencer.noteOff(int) , 67
+19:58:07:054,LOG MySequencer.playNote(), 71
+19:58:07:189,LOG MySequencer.noteOff(int) , 71
+19:58:07:714,LOG MySequencer.playNote(), 72
+19:58:07:820,LOG MySequencer.noteOff(int) , 72
+19:58:09:431,LOG MySequencer.playNote(), 67
+19:58:09:564,LOG MySequencer.noteOff(int) , 67
+19:58:10:302,LOG MySequencer.playNote(), 65
+19:58:10:404,LOG MySequencer.noteOff(int) , 65
+19:58:10:901,LOG MySequencer.playNote(), 64
+19:58:11:029,LOG MySequencer.noteOff(int) , 64
+19:58:11:471,LOG MySequencer.playNote(), 62
+19:58:11:573,LOG MySequencer.noteOff(int) , 62
+19:58:12:214,LOG MySequencer.playNote(), 60
+19:58:12:341,LOG MySequencer.noteOff(int) , 60
+20:01:38:858,LOG log to file: true
+20:01:38:920,LOG log started, file: , log.txt
+20:01:38:967,LOG log file size (mbs) : 3,951880
+20:01:38:967,LOG util.jar version , 2023:03:09a
+20:01:45:775,LOG TimeLord constructor()
+20:01:51:463,LOG SequenceFactory.longMetronome()
+20:01:51:775,LOG TimeLord.setTempo()
+20:01:52:798,LOG setPanelWest()
+20:01:52:800,LOG setPanelCenter()
+20:01:52:800,LOG setPanelSouth()
+20:03:09:016,LOG log to file: true
+20:03:09:032,LOG log started, file: , log.txt
+20:03:09:032,LOG log file size (mbs) : 3,952263
+20:03:09:032,LOG util.jar version , 2023:03:09a
+20:03:09:235,LOG TimeLord constructor()
+20:03:09:705,LOG SequenceFactory.longMetronome()
+20:03:09:713,LOG TimeLord.setTempo()
+20:03:09:781,LOG setPanelWest()
+20:03:09:784,LOG setPanelCenter()
+20:03:09:786,LOG setPanelSouth()
+20:14:46:782,LOG log to file: true
+20:14:47:067,LOG log started, file: , log.txt
+20:14:47:130,LOG log file size (mbs) : 3,952646
+20:14:47:130,LOG util.jar version , 2023:03:09a
+20:14:59:309,LOG TimeLord constructor()
+20:15:04:544,LOG SequenceFactory.longMetronome()
+20:15:04:568,LOG TimeLord.setTempo()
+20:15:07:343,LOG setPanelWest()
+20:15:07:345,LOG setPanelCenter()
+20:15:07:346,LOG setPanelSouth()
+20:15:18:184,LOG TimeLord.toggle()
+20:15:18:185,LOG TimeLord.setTempo()
+20:15:18:185,LOG Metronome.start()
+20:15:18:186,LOG tempo: 70,000000
+20:15:18:187,LOG ticks: 1023
+20:15:18:188,LOG loop start: 0
+20:15:18:188,LOG loop end: -1
+20:15:18:217,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:18:218,LOG class , javax.sound.midi.ShortMessage
+20:15:18:776,LOG status byte, 10011001
+20:15:18:776,LOG type of message, 1
+20:15:18:777,LOG channel, 9
+20:15:18:779,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:18:780,LOG class , javax.sound.midi.ShortMessage
+20:15:18:780,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:18:781,LOG class , javax.sound.midi.ShortMessage
+20:15:18:781,LOG status byte, 10011001
+20:15:18:782,LOG type of message, 1
+20:15:18:782,LOG channel, 9
+20:15:18:829,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:18:829,LOG class , javax.sound.midi.ShortMessage
+20:15:19:045,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:19:046,LOG class , javax.sound.midi.ShortMessage
+20:15:19:046,LOG status byte, 10011001
+20:15:19:046,LOG type of message, 1
+20:15:19:047,LOG channel, 9
+20:15:19:259,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:19:259,LOG class , javax.sound.midi.ShortMessage
+20:15:19:473,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:19:474,LOG class , javax.sound.midi.ShortMessage
+20:15:19:475,LOG status byte, 10011001
+20:15:19:475,LOG type of message, 1
+20:15:19:476,LOG channel, 9
+20:15:19:687,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:19:687,LOG class , javax.sound.midi.ShortMessage
+20:15:19:901,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:19:902,LOG class , javax.sound.midi.ShortMessage
+20:15:19:903,LOG status byte, 10011001
+20:15:19:904,LOG type of message, 1
+20:15:19:904,LOG channel, 9
+20:15:20:116,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:20:118,LOG class , javax.sound.midi.ShortMessage
+20:15:20:331,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:20:332,LOG class , javax.sound.midi.ShortMessage
+20:15:20:333,LOG status byte, 10011001
+20:15:20:334,LOG type of message, 1
+20:15:20:334,LOG channel, 9
+20:15:20:544,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:20:544,LOG class , javax.sound.midi.ShortMessage
+20:15:20:760,LOG Metronome.send(MidiMessage message, long timeStamp : -1
+20:15:20:762,LOG class , javax.sound.midi.ShortMessage
+20:15:20:763,LOG status byte, 10011001
+20:15:20:764,LOG type of message, 1
+20:15:20:764,LOG channel, 9
+20:16:02:912,LOG log to file: true
+20:16:02:912,LOG log started, file: , log.txt
+20:16:02:912,LOG log file size (mbs) : 3,955524
+20:16:02:928,LOG util.jar version , 2023:03:09a
+20:16:05:302,LOG ...EarTrainer()
+20:16:05:303,LOG EarTrainer.initDevStuff()
+20:16:05:303,LOG EarTrainer.initMenuBar()
+20:16:06:105,LOG ...initPanelWest()
+20:16:06:125,LOG EarTrainer.initTempoSlider()
+20:16:41:290,LOG log to file: true
+20:16:41:306,LOG log started, file: , log.txt
+20:16:41:306,LOG log file size (mbs) : 3,955884
+20:16:41:306,LOG util.jar version , 2023:03:09a
+20:16:42:157,LOG ...EarTrainer()
+20:16:42:157,LOG EarTrainer.initDevStuff()
+20:16:42:160,LOG EarTrainer.initMenuBar()
+20:16:42:181,LOG ...initPanelWest()
+20:16:42:217,LOG EarTrainer.initTempoSlider()
+20:16:42:858,LOG ...initPanelNorth()
+20:16:45:171,LOG EarTrainer.initPanelSouth()
+20:20:25:038,LOG log to file: true
+20:20:26:151,LOG log started, file: , log.txt
+20:20:26:476,LOG log file size (mbs) : 3,956322
+20:20:26:477,LOG util.jar version , 2023:03:09a
+20:21:25:950,LOG log to file: true
+20:21:25:961,LOG log started, file: , log.txt
+20:21:25:964,LOG log file size (mbs) : 3,956491
+20:21:25:966,LOG util.jar version , 2023:03:09a
+20:21:43:357,LOG ...EarTrainer()
+20:21:43:357,LOG ...EarTrainer()
+20:21:43:358,LOG EarTrainer.initDevStuff()
+20:21:43:541,LOG EarTrainer.initMenuBar()
+20:21:43:541,LOG EarTrainer.initDevStuff()
+20:21:43:542,LOG EarTrainer.initMenuBar()
+20:21:46:041,LOG ...initPanelWest()
+20:21:46:041,LOG ...initPanelWest()
+20:21:53:561,LOG EarTrainer.initTempoSlider()
+20:21:53:561,LOG EarTrainer.initTempoSlider()
+20:22:03:713,LOG ...initPanelNorth()
+20:22:03:713,LOG ...initPanelNorth()
+20:22:04:783,LOG EarTrainer.initPanelSouth()
+20:22:04:783,LOG EarTrainer.initPanelSouth()
+20:23:44:725,LOG tempo, 50
+20:23:44:729,LOG tempo, 49
+20:23:44:761,LOG tempo, 48
+20:23:44:777,LOG tempo, 47
+20:23:44:822,LOG tempo, 46
+20:23:44:837,LOG tempo, 45
+20:23:44:869,LOG tempo, 44
+20:23:44:917,LOG tempo, 43
+20:23:45:141,LOG tempo, 42
+20:23:45:157,LOG tempo, 41
+20:23:45:161,LOG tempo, 39
+20:23:45:185,LOG tempo, 38
+20:23:45:850,LOG tempo, 39
+20:23:45:857,LOG tempo, 40
+20:23:45:865,LOG tempo, 41
+20:23:45:873,LOG tempo, 43
+20:23:45:890,LOG tempo, 44
+20:23:45:897,LOG tempo, 45
+20:23:45:913,LOG tempo, 46
+20:23:45:945,LOG tempo, 47
+20:23:45:961,LOG tempo, 48
+20:23:45:965,LOG tempo, 49
+20:23:45:973,LOG tempo, 50
+20:23:45:989,LOG tempo, 51
+20:23:45:997,LOG tempo, 53
+20:23:46:006,LOG tempo, 56
+20:23:46:013,LOG tempo, 58
+20:23:46:021,LOG tempo, 60
+20:23:46:037,LOG tempo, 62
+20:23:46:058,LOG tempo, 63
+20:23:46:154,LOG tempo, 64
+20:23:46:165,LOG tempo, 66
+20:23:46:190,LOG tempo, 67
+20:23:46:205,LOG tempo, 68
+20:23:46:732,LOG tempo, 68
+20:23:47:337,LOG tempo, 68
+20:23:47:361,LOG tempo, 67
+20:23:47:369,LOG tempo, 66
+20:23:47:377,LOG tempo, 65
+20:23:47:385,LOG tempo, 64
+20:23:47:393,LOG tempo, 63
+20:23:47:401,LOG tempo, 61
+20:23:47:409,LOG tempo, 59
+20:23:47:413,LOG tempo, 56
+20:23:47:417,LOG tempo, 53
+20:23:47:429,LOG tempo, 51
+20:23:47:438,LOG tempo, 49
+20:23:47:446,LOG tempo, 48
+20:23:47:461,LOG tempo, 47
+20:23:47:501,LOG tempo, 46
+20:23:47:510,LOG tempo, 45
+20:23:47:513,LOG tempo, 44
+20:23:47:525,LOG tempo, 43
+20:23:47:537,LOG tempo, 42
+20:23:47:545,LOG tempo, 38
+20:23:47:553,LOG tempo, 36
+20:23:47:561,LOG tempo, 33
+20:23:47:569,LOG tempo, 31
+20:23:47:577,LOG tempo, 30
+20:23:47:585,LOG tempo, 29
+20:23:47:593,LOG tempo, 28
+20:23:48:417,LOG tempo, 27
+20:23:48:425,LOG tempo, 26
+20:23:48:433,LOG tempo, 24
+20:23:48:441,LOG tempo, 23
+20:23:48:449,LOG tempo, 21
+20:23:48:457,LOG tempo, 19
+20:23:48:465,LOG tempo, 15
+20:23:48:473,LOG tempo, 13
+20:23:48:481,LOG tempo, 11
+20:23:48:497,LOG tempo, 10
+20:23:49:081,LOG tempo, 11
+20:23:49:097,LOG tempo, 13
+20:23:49:105,LOG tempo, 15
+20:23:49:113,LOG tempo, 18
+20:23:49:121,LOG tempo, 22
+20:23:49:130,LOG tempo, 25
+20:23:49:137,LOG tempo, 28
+20:23:49:145,LOG tempo, 31
+20:23:49:149,LOG tempo, 33
+20:23:49:161,LOG tempo, 34
+20:23:49:489,LOG tempo, 34
+20:24:14:072,LOG log to file: true
+20:24:14:181,LOG log started, file: , log.txt
+20:24:14:244,LOG log file size (mbs) : 3,959309
+20:24:14:244,LOG util.jar version , 2023:03:09a
+20:24:32:614,LOG ...EarTrainer()
+20:24:32:615,LOG EarTrainer.initDevStuff()
+20:24:32:615,LOG EarTrainer.initMenuBar()
+20:24:34:008,LOG ...initPanelWest()
+20:24:37:351,LOG EarTrainer.initTempoSlider()
+20:24:39:613,LOG ...initPanelNorth()
+20:24:40:071,LOG EarTrainer.initPanelSouth()
+20:25:11:461,LOG tempo, 50
+20:25:11:517,LOG tempo, 49
+20:25:11:540,LOG tempo, 48
+20:25:11:557,LOG tempo, 47
+20:25:11:564,LOG tempo, 46
+20:25:11:581,LOG tempo, 45
+20:25:11:596,LOG tempo, 44
+20:25:12:212,LOG tempo, 43
+20:25:12:229,LOG tempo, 42
+20:25:12:245,LOG tempo, 41
+20:25:12:276,LOG tempo, 40
+20:25:12:300,LOG tempo, 39
+20:25:12:436,LOG tempo, 38
+20:25:12:532,LOG tempo, 37
+20:25:12:949,LOG tempo, 36
+20:25:13:076,LOG tempo, 35
+20:25:13:108,LOG tempo, 34
+20:25:13:124,LOG tempo, 33
+20:25:13:272,LOG tempo, 32
+20:25:13:757,LOG tempo, 33
+20:25:13:780,LOG tempo, 34
+20:25:13:804,LOG tempo, 35
+20:25:13:820,LOG tempo, 36
+20:25:13:836,LOG tempo, 37
+20:25:13:861,LOG tempo, 38
+20:25:13:884,LOG tempo, 39
+20:25:13:901,LOG tempo, 40
+20:25:13:908,LOG tempo, 41
+20:25:13:924,LOG tempo, 42
+20:25:13:932,LOG tempo, 43
+20:25:13:940,LOG tempo, 44
+20:25:13:957,LOG tempo, 46
+20:25:13:965,LOG tempo, 47
+20:25:14:232,LOG tempo, 48
+20:25:14:245,LOG tempo, 49
+20:25:14:252,LOG tempo, 50
+20:25:14:261,LOG tempo, 51
+20:25:14:276,LOG tempo, 52
+20:25:14:284,LOG tempo, 54
+20:25:14:292,LOG tempo, 55
+20:25:14:301,LOG tempo, 57
+20:25:14:316,LOG tempo, 58
+20:25:14:493,LOG tempo, 59
+20:25:14:500,LOG tempo, 61
+20:25:14:508,LOG tempo, 62
+20:25:14:516,LOG tempo, 63
+20:25:14:524,LOG tempo, 64
+20:25:14:532,LOG tempo, 65
+20:25:14:540,LOG tempo, 66
+20:25:14:548,LOG tempo, 67
+20:25:14:556,LOG tempo, 68
+20:25:14:564,LOG tempo, 70
+20:25:14:573,LOG tempo, 71
+20:25:14:581,LOG tempo, 72
+20:25:14:588,LOG tempo, 73
+20:25:14:692,LOG tempo, 74
+20:25:15:002,LOG tempo, 74
+20:28:09:203,LOG log to file: true
+20:28:09:390,LOG log started, file: , log.txt
+20:28:09:453,LOG log file size (mbs) : 3,961214
+20:28:09:453,LOG util.jar version , 2023:03:09a
+20:28:28:928,LOG ...EarTrainer()
+20:28:28:929,LOG EarTrainer.initDevStuff()
+20:28:28:929,LOG EarTrainer.initMenuBar()
+20:28:31:347,LOG ...initPanelWest()
+20:28:33:086,LOG EarTrainer.initTempoSlider()
+20:28:37:702,LOG ...initPanelNorth()
+20:28:37:931,LOG EarTrainer.initPanelSouth()
+20:28:50:904,LOG tempo, 50
+20:28:50:920,LOG tempo, 49
+20:28:50:960,LOG tempo, 48
+20:28:51:012,LOG tempo, 47
+20:28:51:056,LOG tempo, 46
+20:28:51:156,LOG tempo, 45
+20:28:51:212,LOG tempo, 44
+20:28:51:356,LOG tempo, 43
+20:28:51:488,LOG tempo, 42
+20:28:51:672,LOG tempo, 41
+20:28:51:764,LOG tempo, 40
+20:28:51:856,LOG tempo, 39
+20:28:51:972,LOG tempo, 38
+20:28:52:076,LOG tempo, 37
+20:28:52:323,LOG tempo, 36
+20:28:52:500,LOG tempo, 35
+20:28:52:563,LOG tempo, 34
+20:28:52:948,LOG tempo, 33
+20:28:53:031,LOG tempo, 32
+20:28:53:456,LOG tempo, 32
+20:28:55:508,LOG ...playMelody()
+20:29:04:360,LOG EarTrainer.generateMelody()
+20:29:04:401,LOG getSequence(List<Integer>)
+20:29:04:503,LOG Melody.getNotes()
+20:29:04:503,LOG note: , 61
+20:29:04:504,LOG note: , 65
+20:29:04:504,LOG note: , 65
+20:29:04:505,LOG note: , 66
+20:29:04:505,LOG note: , 65
+20:29:04:506,LOG note: , 66
+20:29:04:506,LOG note: , 66
+20:29:04:507,LOG note: , 61
+20:29:04:507,LOG note: , 65
+20:29:04:508,LOG note: , 66
+20:29:04:508,LOG number of tracks: , 1
+20:29:04:509,LOG ticks: : 19
+20:29:04:509,LOG size: , 21
+20:29:04:548,LOG status byte, 10010001
+20:29:04:549,LOG type of message, 1
+20:29:04:549,LOG channel, 1
+20:29:04:551,LOG status byte, 10000001
+20:29:04:551,LOG type of message, 0
+20:29:04:552,LOG channel, 1
+20:29:04:552,LOG status byte, 10010001
+20:29:04:553,LOG type of message, 1
+20:29:04:553,LOG channel, 1
+20:29:04:555,LOG status byte, 10000001
+20:29:04:555,LOG type of message, 0
+20:29:04:556,LOG channel, 1
+20:29:04:557,LOG status byte, 10010001
+20:29:04:557,LOG type of message, 1
+20:29:04:558,LOG channel, 1
+20:29:04:558,LOG status byte, 10000001
+20:29:04:559,LOG type of message, 0
+20:29:04:559,LOG channel, 1
+20:29:04:560,LOG status byte, 10010001
+20:29:04:560,LOG type of message, 1
+20:29:04:561,LOG channel, 1
+20:29:04:562,LOG status byte, 10000001
+20:29:04:563,LOG type of message, 0
+20:29:04:563,LOG channel, 1
+20:29:04:564,LOG status byte, 10010001
+20:29:04:565,LOG type of message, 1
+20:29:04:566,LOG channel, 1
+20:29:04:567,LOG status byte, 10000001
+20:29:04:568,LOG type of message, 0
+20:29:04:569,LOG channel, 1
+20:29:04:570,LOG status byte, 10010001
+20:29:04:571,LOG type of message, 1
+20:29:04:571,LOG channel, 1
+20:29:04:572,LOG status byte, 10000001
+20:29:04:573,LOG type of message, 0
+20:29:04:573,LOG channel, 1
+20:29:04:574,LOG status byte, 10010001
+20:29:04:574,LOG type of message, 1
+20:29:04:575,LOG channel, 1
+20:29:04:576,LOG status byte, 10000001
+20:29:04:577,LOG type of message, 0
+20:29:04:577,LOG channel, 1
+20:29:04:578,LOG status byte, 10010001
+20:29:04:579,LOG type of message, 1
+20:29:04:580,LOG channel, 1
+20:29:04:581,LOG status byte, 10000001
+20:29:04:582,LOG type of message, 0
+20:29:04:583,LOG channel, 1
+20:29:04:584,LOG status byte, 10010001
+20:29:04:585,LOG type of message, 1
+20:29:04:585,LOG channel, 1
+20:29:04:586,LOG status byte, 10000001
+20:29:04:586,LOG type of message, 0
+20:29:04:587,LOG channel, 1
+20:29:04:588,LOG status byte, 10010001
+20:29:04:588,LOG type of message, 1
+20:29:04:589,LOG channel, 1
+20:29:04:590,LOG status byte, 10000001
+20:29:04:590,LOG type of message, 0
+20:29:04:591,LOG channel, 1
+20:29:04:591,LOG Melody.getNotes()
+20:29:07:716,LOG tempo, 32
+20:29:07:744,LOG tempo, 31
+20:29:07:847,LOG tempo, 30
+20:29:07:883,LOG tempo, 29
+20:29:07:992,LOG tempo, 28
+20:29:08:032,LOG tempo, 27
+20:29:08:108,LOG tempo, 26
+20:29:08:288,LOG tempo, 25
+20:29:08:392,LOG tempo, 24
+20:29:08:936,LOG tempo, 24
+20:29:12:703,LOG ...playMelody()
+20:29:12:704,LOG MySequence.playSequence(Sequence)
+20:29:29:803,LOG tempo, 24
+20:29:29:811,LOG tempo, 26
+20:29:29:819,LOG tempo, 28
+20:29:29:827,LOG tempo, 31
+20:29:29:831,LOG tempo, 34
+20:29:29:839,LOG tempo, 38
+20:29:29:848,LOG tempo, 40
+20:29:29:856,LOG tempo, 42
+20:29:29:863,LOG tempo, 43
+20:29:29:999,LOG tempo, 44
+20:29:30:011,LOG tempo, 45
+20:29:30:023,LOG tempo, 46
+20:29:30:031,LOG tempo, 47
+20:29:30:039,LOG tempo, 48
+20:29:30:048,LOG tempo, 49
+20:29:30:055,LOG tempo, 50
+20:29:30:065,LOG tempo, 52
+20:29:30:071,LOG tempo, 54
+20:29:30:079,LOG tempo, 57
+20:29:30:083,LOG tempo, 59
+20:29:30:095,LOG tempo, 62
+20:29:30:104,LOG tempo, 64
+20:29:30:112,LOG tempo, 66
+20:29:30:119,LOG tempo, 68
+20:29:30:128,LOG tempo, 69
+20:29:30:136,LOG tempo, 71
+20:29:30:143,LOG tempo, 73
+20:29:30:151,LOG tempo, 74
+20:29:30:159,LOG tempo, 75
+20:29:30:167,LOG tempo, 76
+20:29:30:176,LOG tempo, 77
+20:29:30:184,LOG tempo, 78
+20:29:30:192,LOG tempo, 79
+20:29:30:200,LOG tempo, 81
+20:29:30:208,LOG tempo, 82
+20:29:30:223,LOG tempo, 83
+20:29:30:227,LOG tempo, 85
+20:29:30:240,LOG tempo, 87
+20:29:30:248,LOG tempo, 88
+20:29:30:255,LOG tempo, 89
+20:29:31:208,LOG tempo, 89
+20:29:32:328,LOG EarTrainer.generateMelody()
+20:29:32:328,LOG getSequence(List<Integer>)
+20:29:32:331,LOG Melody.getNotes()
+20:29:32:332,LOG note: , 65
+20:29:32:332,LOG note: , 61
+20:29:32:332,LOG note: , 65
+20:29:32:333,LOG note: , 61
+20:29:32:333,LOG note: , 65
+20:29:32:333,LOG note: , 63
+20:29:32:334,LOG note: , 66
+20:29:32:334,LOG note: , 63
+20:29:32:335,LOG note: , 63
+20:29:32:335,LOG note: , 65
+20:29:32:336,LOG number of tracks: , 1
+20:29:32:336,LOG ticks: : 19
+20:29:32:336,LOG size: , 21
+20:29:32:337,LOG status byte, 10010001
+20:29:32:337,LOG type of message, 1
+20:29:32:338,LOG channel, 1
+20:29:32:338,LOG status byte, 10000001
+20:29:32:339,LOG type of message, 0
+20:29:32:339,LOG channel, 1
+20:29:32:340,LOG status byte, 10010001
+20:29:32:341,LOG type of message, 1
+20:29:32:341,LOG channel, 1
+20:29:32:342,LOG status byte, 10000001
+20:29:32:342,LOG type of message, 0
+20:29:32:343,LOG channel, 1
+20:29:32:344,LOG status byte, 10010001
+20:29:32:344,LOG type of message, 1
+20:29:32:345,LOG channel, 1
+20:29:32:346,LOG status byte, 10000001
+20:29:32:346,LOG type of message, 0
+20:29:32:347,LOG channel, 1
+20:29:32:348,LOG status byte, 10010001
+20:29:32:348,LOG type of message, 1
+20:29:32:348,LOG channel, 1
+20:29:32:349,LOG status byte, 10000001
+20:29:32:349,LOG type of message, 0
+20:29:32:350,LOG channel, 1
+20:29:32:350,LOG status byte, 10010001
+20:29:32:351,LOG type of message, 1
+20:29:32:351,LOG channel, 1
+20:29:32:352,LOG status byte, 10000001
+20:29:32:352,LOG type of message, 0
+20:29:32:353,LOG channel, 1
+20:29:32:353,LOG status byte, 10010001
+20:29:32:354,LOG type of message, 1
+20:29:32:354,LOG channel, 1
+20:29:32:354,LOG status byte, 10000001
+20:29:32:355,LOG type of message, 0
+20:29:32:355,LOG channel, 1
+20:29:32:356,LOG status byte, 10010001
+20:29:32:356,LOG type of message, 1
+20:29:32:357,LOG channel, 1
+20:29:32:357,LOG status byte, 10000001
+20:29:32:358,LOG type of message, 0
+20:29:32:358,LOG channel, 1
+20:29:32:359,LOG status byte, 10010001
+20:29:32:359,LOG type of message, 1
+20:29:32:359,LOG channel, 1
+20:29:32:360,LOG status byte, 10000001
+20:29:32:360,LOG type of message, 0
+20:29:32:360,LOG channel, 1
+20:29:32:361,LOG status byte, 10010001
+20:29:32:361,LOG type of message, 1
+20:29:32:362,LOG channel, 1
+20:29:32:362,LOG status byte, 10000001
+20:29:32:363,LOG type of message, 0
+20:29:32:363,LOG channel, 1
+20:29:32:364,LOG status byte, 10010001
+20:29:32:364,LOG type of message, 1
+20:29:32:365,LOG channel, 1
+20:29:32:365,LOG status byte, 10000001
+20:29:32:366,LOG type of message, 0
+20:29:32:366,LOG channel, 1
+20:29:32:367,LOG Melody.getNotes()
+20:29:37:063,LOG tempo, 89
+20:29:37:127,LOG tempo, 90
+20:29:37:200,LOG tempo, 91
+20:29:37:224,LOG tempo, 92
+20:29:37:255,LOG tempo, 93
+20:29:37:983,LOG tempo, 92
+20:29:38:064,LOG tempo, 91
+20:29:38:112,LOG tempo, 90
+20:29:38:439,LOG tempo, 89
+20:29:38:455,LOG tempo, 88
+20:29:38:463,LOG tempo, 87
+20:29:38:479,LOG tempo, 86
+20:29:38:487,LOG tempo, 85
+20:29:38:495,LOG tempo, 84
+20:29:38:504,LOG tempo, 83
+20:29:38:512,LOG tempo, 82
+20:29:38:524,LOG tempo, 81
+20:29:40:024,LOG tempo, 82
+20:29:40:103,LOG tempo, 83
+20:29:40:144,LOG tempo, 84
+20:29:40:251,LOG tempo, 85
+20:29:40:520,LOG tempo, 85
+20:29:43:623,LOG ...playMelody()
+20:29:43:624,LOG MySequence.playSequence(Sequence)
+20:29:47:755,LOG tempo, 85
+20:29:47:783,LOG tempo, 86
+20:29:47:816,LOG tempo, 87
+20:29:47:839,LOG tempo, 88
+20:29:47:847,LOG tempo, 89
+20:29:47:855,LOG tempo, 90
+20:29:47:871,LOG tempo, 92
+20:29:47:887,LOG tempo, 93
+20:29:47:895,LOG tempo, 95
+20:29:47:903,LOG tempo, 97
+20:29:47:911,LOG tempo, 98
+20:29:47:919,LOG tempo, 100
+20:29:48:296,LOG tempo, 100
+20:29:50:683,LOG EarTrainer.repeatMelody()
+20:29:50:684,LOG MySequence.playSequence(Sequence)

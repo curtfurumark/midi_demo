@@ -1,7 +1,7 @@
 package console;
 
 import classes.Note;
-import gui.EarTrainer;
+import ear_master.EarTrainer;
 
 import javax.sound.midi.*;
 

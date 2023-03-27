@@ -1,16 +1,29 @@
 package lib;
 
+import classes.Melody;
 import logger.CRBLogger;
 import midi.MidiUtil;
 
 import javax.sound.midi.*;
+import java.util.List;
 
 public class MidiLogger extends CRBLogger {
     private static boolean debug = true;
-    public static void log(Receiver receiver) {
-        log("log(Receiver)");
-        log("reciver toString" ,receiver.toString());
+
+
+    public static void log(Melody melody){
+        log("...Melody...");
+        MidiLogger.logMusicNotes(melody.getNotes());
+        log(melody.getSequence());
     }
+
+    private static void logMusicNotes(List<Integer> notes) {
+        for(Integer note: notes){
+            log("note: ", note);
+        }
+    }
+
+
     public static void log(MidiDevice midiDevice){
         if(!debug){
             return;
@@ -21,9 +34,16 @@ public class MidiLogger extends CRBLogger {
         long  time = midiDevice.getMicrosecondPosition();
         midiDevice.getDeviceInfo().getDescription();
     }
+
+    public static void log(Receiver receiver) {
+        log("log(Receiver)");
+        log("reciver toString" ,receiver.toString());
+    }
+
     public static void log(Sequence sequence){
-        log("log Sequence...");
+        log("'''log Sequence...");
         Track[] tracks = sequence.getTracks();
+        log("number of tracks: ", tracks.length);
         for (Track track: tracks){
             log(track);
         }
